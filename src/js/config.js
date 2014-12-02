@@ -2,7 +2,36 @@
 
 // data object for configs
 
-var config = {
-	displayLength:8
+var config = (function() {
+	var config = {
+		displayLength: 8,
+		enumSigns: {
+			PLUS: 0,
+			MINUS: 1,
+			MULTIPLY: 2,
+			DIVIDE: 3
+		}
+		signToEnum:signToEnum;
+	};
 
-};
+	return config;
+
+	/**
+	 * Turns tring sign into config.enumSigns
+	 * @param  {String} 		sign
+	 * @return {config.enum}    enumerated sign
+	 */
+	function signToEnum(sign) {
+		switch (sign) {
+			case '+':
+				return config.enumSigns.PLUS;
+			case '-':
+				return config.enumSigns.MINUS;
+			case '*':
+				return config.enumSigns.MULTIPLY;
+			case '/':
+				return config.enumSigns.DIVIDE;
+		}
+	}
+
+})();

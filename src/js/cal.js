@@ -6,14 +6,23 @@
 // var config = require("config");
 // var ajaxHelper = require("ajaxHelper");
 
-var Cal = (function(){
-	function Calculator(){
-		this.isNew = true;		// bool
-		this.result = 0;		// int
-		this.buffer = 0;		// int
-		this.bufferLength = 0;	// int
-		this.bufferSign = "";	// string{1}
+var Cal = (function() {
+	function Calculator() {
+		this.isNew = true; 			// bool
+		/*private*/var result = 0; 	// int
+		this.buffer = 0; 			// int
+		this.bufferLength = 0; 		// int
+		this.bufferSign = ""; 		// string{1}
 		this.isUpdating = false;
+		this.resultSignal = new Signal();
+
+		this.getResult = function() {
+			return result;
+		}
+		this.settResult = function(val) {
+			result = val;
+			resultSignal.trigger();
+		}
 	}
 
 	/* ***** Region: Register function to prototype ***** */
@@ -53,20 +62,20 @@ var Cal = (function(){
 	 * returns false if buffer is full
 	 * returns true  if success
 	 */
-	function addDigit(d){
-		if(d)
-		if(this.bufferLength>=config.displayLength) return false;
-		this.buffer = this.buffer*10+d;
+	function addDigit(d) {
+		if (d)
+			if (this.bufferLength >= config.displayLength) return false;
+		this.buffer = this.buffer * 10 + d;
 		this.bufferLength++;
 	};
 	/**
 	 * updates the bufferSign of this calsulation
 	 * @param  {string} s sign{+,-,*,/}
 	 * @return {boolean}  true  if successful,
-	 *                    false if there is nothing in buffer, 
+	 *                    false if there is nothing in buffer,
 	 */
-	function chooseSign(s){
-		if(this.bufferLength<=0) return false;
+	function chooseSign(s) {
+		if (this.bufferLength <= 0) return false;
 		this._evaluateBufferToResult();
 
 		return true;
@@ -77,11 +86,11 @@ var Cal = (function(){
 	 * @return {boolean} true  if successful,
 	 *                   false if nothing is in buffer
 	 */
-	function _evaluateToResult(){
-		if(this.bufferLength<=0) return false;
-		if(this.isNew){
+	function _evaluateToResult() {
+		if (this.bufferLength <= 0) return false;
+		if (this.isNew) {
 			this.result = this.buffer;
-		}else{
+		} else {
 			this.result = this.getResult();
 		}
 		return true;
@@ -92,21 +101,22 @@ var Cal = (function(){
 	 * with callback function
 	 * @return {nothing}
 	 */
-	function getResult(){
+	function getResult() {
 		var _this = this;
 		ajaxHelper.getResult({
-			a: 		this.result, 
-			sign: 	this.bufferSign, 
-			b: 		this.buffer,
-			callback:function(result,resultExponent){
-				_putResult.call(_this,result,resultExponent);
+			a: this.result,
+			sign: config.signToEnum(this.bufferSign),
+			b: this.buffer,
+			callback: function(result, resultExponent) {
+				_putResult.call(_this, result, resultExponent);
 			}
 		});
 	}
 
-	function _putResult(result,resultExponent){
+	function _putResult(result, resultExponent) {
 		this.result = result;
 	}
+
 
 
 })();
