@@ -1,0 +1,1254 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"uni",
+				"unix_files"
+			],
+			[
+				"app",
+				"appendChild"
+			],
+			[
+				"audio",
+				"audioController"
+			],
+			[
+				"deq",
+				"dequeue"
+			],
+			[
+				"HT",
+				"HTML5Audio"
+			],
+			[
+				"A",
+				"AudioController"
+			],
+			[
+				"nex",
+				"nextBeatStart"
+			],
+			[
+				"ne",
+				"nextMove"
+			],
+			[
+				"call",
+				"callbacks"
+			],
+			[
+				"get",
+				"getDescription"
+			],
+			[
+				"des",
+				"description"
+			],
+			[
+				"out",
+				"output_div"
+			],
+			[
+				"mari",
+				"margin"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"ui_",
+				"ui_over_highlight"
+			],
+			[
+				"hi",
+				"highlight"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"mouse",
+				"mouseleave"
+			],
+			[
+				"data",
+				"dataset"
+			],
+			[
+				"con",
+				"config"
+			],
+			[
+				"si",
+				"sidebar"
+			],
+			[
+				"ran",
+				"range_marker"
+			],
+			[
+				"tow",
+				"tower_icon"
+			],
+			[
+				"show",
+				"showMarker"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"go",
+				"gotoPage"
+			],
+			[
+				"re",
+				"require"
+			],
+			[
+				"a",
+				"a	<a>"
+			],
+			[
+				"de",
+				"text-decoration"
+			],
+			[
+				"size",
+				"font-size"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"sc",
+				"scrollToPos"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"ul",
+				"UL	Tag"
+			],
+			[
+				"nav",
+				"div#nav"
+			],
+			[
+				"html",
+				"html5	Simple HTML5 Boilerplate"
+			],
+			[
+				"style",
+				"style"
+			],
+			[
+				"title",
+				"div#title"
+			],
+			[
+				"game",
+				"gameArea"
+			],
+			[
+				"li",
+				"livereload"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"allowed",
+				"allowedSteps"
+			],
+			[
+				"all",
+				"allowedSteps"
+			],
+			[
+				"sid",
+				"sideNote"
+			],
+			[
+				"q",
+				"query_string"
+			],
+			[
+				"qu",
+				"queryString"
+			],
+			[
+				"canS",
+				"canStartList"
+			],
+			[
+				"has",
+				"hasOwnProperty"
+			],
+			[
+				"make",
+				"makeRoomManager"
+			],
+			[
+				"ma",
+				"makeRoomManager"
+			],
+			[
+				"mak",
+				"makeRoomManager"
+			],
+			[
+				"em",
+				"emptyRoomPlaces"
+			],
+			[
+				"emptyRo",
+				"emptyRoomID"
+			],
+			[
+				"j",
+				"joinedRoom"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"doc",
+				"document"
+			],
+			[
+				"fl",
+				"floating-link"
+			],
+			[
+				"cr",
+				"createElement"
+			],
+			[
+				"parallax",
+				"parallax_degree"
+			],
+			[
+				"l",
+				"liveDebug"
+			],
+			[
+				"background",
+				"background-repeat"
+			],
+			[
+				"my",
+				"myPercent"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"color",
+				"colorToLetter"
+			],
+			[
+				"M",
+				"MOVE"
+			],
+			[
+				"final",
+				"finalHop"
+			],
+			[
+				"count",
+				"countSix"
+			],
+			[
+				"turn",
+				"turnID"
+			],
+			[
+				"session",
+				"sessionStore"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"is",
+				"isValidJSON"
+			],
+			[
+				"outer",
+				"outerRingPos"
+			],
+			[
+				"ba",
+				"backspace"
+			],
+			[
+				"ou",
+				"outerRingPos"
+			],
+			[
+				"content",
+				"content-welcome"
+			],
+			[
+				"content-",
+				"content-create"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"welcome",
+				"welcome-greet"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"cl",
+				"disableClick"
+			],
+			[
+				"r",
+				"rgba()"
+			],
+			[
+				"dept",
+				"dept_name"
+			],
+			[
+				"cou",
+				"count_requests"
+			],
+			[
+				"t_f",
+				"t_form_requests_array"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"range_ma",
+				"range_marker2"
+			],
+			[
+				"po",
+				"powerPlant"
+			],
+			[
+				"p",
+				"prototype"
+			],
+			[
+				"power",
+				"powerPlantPower"
+			],
+			[
+				"res",
+				"btn-research-center"
+			],
+			[
+				"un",
+				"university"
+			],
+			[
+				"u",
+				"university"
+			],
+			[
+				"btn-un",
+				"btn-university"
+			],
+			[
+				"btn-r",
+				"btn-research-center"
+			],
+			[
+				"ch",
+				"cheungKong"
+			],
+			[
+				"s",
+				"sound"
+			],
+			[
+				"sl",
+				"slowFactor"
+			],
+			[
+				"coo",
+				"coolDownTime"
+			],
+			[
+				"dr",
+				"drawImage"
+			],
+			[
+				"sheep",
+				"sheep_list"
+			],
+			[
+				"typ",
+				"typhoonID"
+			],
+			[
+				"prot",
+				"prototype"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"near",
+				"nearEnemy"
+			],
+			[
+				"nearest",
+				"nearestDist"
+			],
+			[
+				"fi",
+				"findNearestEnemy"
+			],
+			[
+				"nea",
+				"nearest"
+			],
+			[
+				"d",
+				"damage"
+			],
+			[
+				"upda",
+				"updatePosition"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"sprite",
+				"sprite_origin"
+			],
+			[
+				"new",
+				"newEnemy"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<html>\n<head>\n	<title>Web Cal Chui Hin Wah</title>\n	\n	<link rel=\"stylesheet\" type=\"text/css\" href=\"css/reset.css\">\n	<link rel=\"stylesheet\" type=\"text/css\" href=\"css/clearfix.css\">\n	<link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\">\n	<script src=\"./js/cal.js\" type=\"text/javascript\" charset=\"utf-8\" ></script>\n</head>\n<body>\n\n	<div id=\"frame\">\n		<div id=\"result-bar\">\n			<div id=\"result\"></div>\n		</div>\n		<div id=\"buttons\">\n			<div id=\"digits\">\n				<div id=\"digits-normal\">\n					<div class=\"digits-normal-row clearfix\">\n						<div class=\"digit\"><div class=\"button\">7</div></div>\n						<div class=\"digit\"><div class=\"button\">8</div></div>\n						<div class=\"digit\"><div class=\"button\">9</div></div>\n					</div>\n					<div class=\"digits-normal-row clearfix\">\n						<div class=\"digit\"><div class=\"button\">4</div></div>\n						<div class=\"digit\"><div class=\"button\">5</div></div>\n						<div class=\"digit\"><div class=\"button\">6</div></div>\n					</div>\n					<div class=\"digits-normal-row clearfix\">\n						<div class=\"digit\"><div class=\"button\">1</div></div>\n						<div class=\"digit\"><div class=\"button\">2</div></div>\n						<div class=\"digit\"><div class=\"button\">3</div></div>\n					</div>\n				</div>\n				<div id=\"digits-bar\">\n					<div class=\"digit\"><div class=\"button button-\">0</div></div>\n				</div>\n			</div>\n			<div id=\"operations\">\n				\n			</div>\n			\n		</div>\n		<div id=\"credit\"></div>\n	</div>\n\n</body>\n</html>",
+			"file": "src/index.html",
+			"file_size": 1455,
+			"file_write_time": 130620134720276725,
+			"settings":
+			{
+				"buffer_size": 1416,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/js/cal.js",
+			"settings":
+			{
+				"buffer_size": 34,
+				"line_ending": "Windows",
+				"name": "// cal.js"
+			}
+		},
+		{
+			"file": "src/css/style.css",
+			"settings":
+			{
+				"buffer_size": 393,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"ja",
+				"Set Syntax: Java"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"upda",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"synmd",
+				"Set Syntax: Markdown"
+			],
+			[
+				"md",
+				"Set Syntax: Markdown"
+			],
+			[
+				"she",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"pc",
+				"Package Control: Disable Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"mdpr",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"pci",
+				"Package Control: Install Package"
+			],
+			[
+				"c",
+				"Set Syntax: C"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"pc ",
+				"Package Control: List Packages"
+			],
+			[
+				"pank",
+				"Package Control: List Packages"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"jso",
+				"Set Syntax: JSON"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"for",
+				"Format: Javascript"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"pcd",
+				"Package Control: Disable Package"
+			],
+			[
+				"tern",
+				"TernJS: Reload"
+			],
+			[
+				"pcdc",
+				"Package Control: Discover Packages"
+			],
+			[
+				"pcl",
+				"Package Control: List Packages"
+			],
+			[
+				"pcI",
+				"Package Control: Install Package"
+			],
+			[
+				"PC",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"pcon",
+				"Package Control: Discover Packages"
+			],
+			[
+				"packcon",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 160.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/M/_season02/WebCal/index.html",
+		"/C/Users/Lenovo/alljoyn-android/core/alljoyn-14.06.00a-dbg/README.txt",
+		"/C/Users/Lenovo/Documents/2014-15 UKent CityU/dickson039scasualnotes.wordpress.2014-10-26.xml",
+		"/M/_season02/_unity/aeroplane1/Assets/Scripts/cloud/chunkBehaviour.cs",
+		"/M/_season02/Jonathan/virus-lab/virus.py",
+		"/M/_season02/Jonathan/virus-lab/hello.py",
+		"/C/Users/Lenovo/Documents/2014-15 UKent CityU/CO518 Algo/Lab/Ass2/Dijkstra/Dijkstra2/Dijkstra.java",
+		"/C/Users/Lenovo/Documents/2014-15 UKent CityU/EL639 Video Games/Projects/Lab03_b/Assets/Scripts/playerInventoryBehaviour.cs",
+		"/M/_season02/MaaGeeKey/js/consoleMirror.js",
+		"/M/_season02/MaaGeeKey/js/consoleMirrorLocal.js",
+		"/M/_season02/MaaGeeKey/js/audioController.js",
+		"/M/_season02/MaaGeeKey/js/polyfill.js",
+		"/M/_season02/MaaGeeKey/js/util/Queue.src.js",
+		"/C/Users/Lenovo/Documents/2014-15 UKent CityU/CO518 Algo/Lab/Ass1/ArrayMania/ArrayMania/main algorithm.java",
+		"/C/Users/Lenovo/Documents/2014-15 UKent CityU/CO518 Algo/Lab/Ass1/ArrayMania/ArrayMania/README.TXT",
+		"/C/Users/Lenovo/Documents/2014-15 UKent CityU/CO518 Algo/Lab/Ass1/ArrayMania/ArrayMania/TooManyInversionsException.ctxt",
+		"/C/Users/Lenovo/Documents/2014-15 UKent CityU/FYP/abstract.txt",
+		"/M/_season02/MaaGeeKey/js/main.js",
+		"/M/_season02/MaaGeeKey/js/battle.js",
+		"/M/_season02/MaaGeeKey/js/creatures/fighter.js",
+		"/M/_season02/MaaGeeKey/js/creatures/pilots/playerControl.js",
+		"/M/_season02/MaaGeeKey/js/io.js",
+		"/C/Users/Lenovo/Documents/2014-15 UKent CityU/CO518 Algo/Lab/class4/first trial qsort p1",
+		"/C/Users/Lenovo/Saved Games/Super Time Force Ultra/Super.Time.Force.Ultra.v1.01.RIP-OUTLAWS/res/gameData.dat.cat",
+		"/C/Users/Lenovo/Saved Games/Super Time Force Ultra/Super.Time.Force.Ultra.v1.01.RIP-OUTLAWS/res/gameData.dat.hah",
+		"/M/_season02/keepContent/bookmarklet.js",
+		"/M/_season02/MaaGeeKey/js/creatures/pilots/aiPacifist.js",
+		"/M/_season02/MaaGeeKey/js/audio.js",
+		"/M/_season02/queue/Queue.src.js",
+		"/M/_season02/MaaGeeKey/gulpfile.js",
+		"/C/Users/Lenovo/android-sdks/extras/google/usb_driver/android_winusb.inf",
+		"/M/_season02/MaaGeeKey/js/game.js",
+		"/M/_season02/MaaGeeKey/js/config.js",
+		"/M/_season02/MaaGeeKey/index.html",
+		"/M/_season02/MaaGeeKey/js/creatures/players/warrior.js",
+		"/M/_season02/MaaGeeKey/css/style.css",
+		"/M/_season02/MaaGeeKey/js/actors/monsters/slime.js",
+		"/M/_season02/MaaGeeKey/js/actors/players/warrior.js",
+		"/M/_season02/MaaGeeKey/js/actors/pilots/aiPacifist.js",
+		"/M/_season02/MaaGeeKey/js/actors/pilots/playerControl.js",
+		"/M/_season02/MaaGeeKey/js/system/util.js",
+		"/M/_season02/MaaGeeKey/js/actors/buff.js",
+		"/M/_season02/MaaGeeKey/js/actors/fighter.js",
+		"/M/_season02/MaaGeeKey/js/actors/pilots/player.js",
+		"/M/_season02/MaaGeeKey/js/system/grammar.js",
+		"/M/_season02/MaaGeeKey/css/reset.css",
+		"/M/_season02/coc_markers/bookmarklet.js",
+		"/M/_season02/labCoat/js/scroll.js",
+		"/Q/AUTORUN.INF",
+		"/M/_season02/MaaGeeKey/js/system/screenSize.js",
+		"/M/_season02/MaaGeeKey/js/actors/monsters/monsters.js",
+		"/M/_season02/MaaGeeKey/js/output.js",
+		"/M/_season02/MaaGeeKey/package.json",
+		"/C/Riot Games/League of Legends/Config/game.cfg",
+		"/M/_season02/Ma_G_Key/css/style.css",
+		"/M/_season02/Ma_G_Key/index.html",
+		"/M/_season02/Ma_G_Key/js/main.js",
+		"/M/_season02/Ma_G_Key/js/monsters/monsters.js",
+		"/M/_season02/Ma_G_Key/js/system/screenSize.js",
+		"/M/_season02/Ma_G_Key/js/monsters/slime.js",
+		"/M/_season02/Ma_G_Key/js/actors/fighter.js",
+		"/M/_season02/Ma_G_Key/js/template.js",
+		"/M/_season01/parallaxClouds/parallax.js",
+		"/M/_season02/Ma_G_Key/package.json",
+		"/M/_season02/Ma_G_Key/js/screenSize.js",
+		"/C/Users/Lenovo/Documents/My Games/Age of Empires 3/Users3/NewProfile3.xml",
+		"/C/Users/Lenovo/Documents/My Games/Age of Empires 3/Users/NewProfile.xml",
+		"/C/Program Files (x86)/Steam/steamapps/common/Age Of Empires 3/bin/Startup/gamey.con",
+		"/C/Program Files (x86)/Steam/steamapps/common/Age Of Empires 3/bin/Startup/gamey.cfg",
+		"/C/Program Files (x86)/Steam/steamapps/common/Age Of Empires 3/bin/Users/DefaultProfile3.xml",
+		"/C/Program Files (x86)/Steam/steamapps/common/Age Of Empires 3/bin/Users/DefaultProfile.xml",
+		"/C/Program Files (x86)/Steam/steamapps/common/Age Of Empires 3/bin/Users/DefaultProfile2.xml",
+		"/M/_season02/DFX web/web layout/web layout/WEBSITE_DEMO_V3.svg",
+		"/C/Program Files (x86)/Steam/steamapps/common/Age Of Empires 3/bin/config.xml",
+		"/C/Users/Lenovo/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/M/_season02/DFX web/web layout/web layout/WEBSITE_DEMO.ai",
+		"/C/Users/Lenovo/Dropbox/Code/_season02/CityuUHuntHighlight/bookmarklet.js",
+		"/C/Users/Lenovo/Documents/2013-14 CityU/OCIO/panotour/ToDicksonTest/toDicksondata/toDickson.xml",
+		"/C/Users/Lenovo/Documents/2013-14 CityU/OCIO/panotour/ToDicksonTest/package.json",
+		"/C/Users/Lenovo/Documents/2013-14 CityU/OCIO/panotour/ToDicksonTest/toDicksondata/toDickson_skin.xml",
+		"/C/Users/Lenovo/Documents/2013-14 CityU/OCIO/panotour/ToDicksonTest/toDicksondata/toDickson_messages_en.xml",
+		"/C/Users/Lenovo/Documents/2013-14 CityU/OCIO/panotour/ToDicksonTest/toDicksondata/toDickson_core.xml",
+		"/M/cm/mobileCoder/src/editarea_0_8_2/editarea_0_8_2/exemples/exemple_full.html",
+		"/C/Users/Lenovo/Documents/2013-14 CityU/OCIO/panotour/ToDicksonTest/toDicksondata/toDickson.js",
+		"/C/Users/Lenovo/Documents/2013-14 CityU/OCIO/panotour/ToDicksonTest/toDickson.html",
+		"/C/Users/Lenovo/Documents/2013-14 CityU/OCIO/panotour/ToDicksonTest/toDicksondata/toDickson_edited.xml",
+		"/M/_season02/labCoat/index.html",
+		"/M/_season02/labCoat/css/style.css",
+		"/M/_season02/labCoat/js/config.js",
+		"/M/_season02/labCoat/js/main.js",
+		"/M/_season02/labCoat/js/bundle.js",
+		"/M/_season02/labCoat/css/layout.css",
+		"/M/_season02/labCoat/css/home.css",
+		"/M/_season02/labCoat/css/nav.css",
+		"/M/_season02/labCoat/css/news.css",
+		"/M/_season02/labCoat/css/about.css",
+		"/M/_season02/labCoat/css/focus.css",
+		"/M/_season02/labCoat/css/contact.css",
+		"/M/_season02/labCoat/gulpfile.js",
+		"/M/_season02/vicksonzero.github.io/index.html",
+		"/M/_season02/labCoat/package.json",
+		"/M/_season02/DFX web/web/css/about.css",
+		"/M/_season02/DFX web/web/css/focus.css",
+		"/M/_season02/DFX web/web/css/contact.css",
+		"/M/_season02/DFX web/web/css/news.css",
+		"/M/_season02/DFX web/web/css/home.css",
+		"/M/_season02/DFX web/web/js/scroll.js",
+		"/M/_season02/DFX web/web/css/people.css",
+		"/M/_season02/DFX web/web/gulpfile.js",
+		"/M/_BrowserifyGulp/snakePro/css/main.css",
+		"/M/_BrowserifyGulp/snakePro/js/bundle.js",
+		"/M/_BrowserifyGulp/snakePro/gulp browserify reload.bat",
+		"/M/_BrowserifyGulp/rebellionRisingMobile/src/index.html",
+		"/M/_BrowserifyGulp/rebellionRisingMobile/src/js/main.js",
+		"/M/_BrowserifyGulp/rebellionRisingMobile/src/js/rooms/roomManager.js",
+		"/M/_BrowserifyGulp/rebellionRisingMobile/src/js/actors/Ball.js",
+		"/M/_BrowserifyGulp/rebellionRisingMobile/src/js/rooms/Room.js",
+		"/M/_BrowserifyGulp/snakePro/gulpfile.js",
+		"/M/_BrowserifyGulp/rebellionRisingMobile/src/js/actors/ball.js",
+		"/M/_BrowserifyGulp/rebellionRisingMobile/src/package.json",
+		"/M/_BrowserifyGulp/rebellionRisingMobile/src/gulpfile.js",
+		"/M/cm/mobileCoder02/src/package.json",
+		"/M/cm/mobileCoder02/src/gulpfile.js",
+		"/M/cm/mobileCoder02/src/index.html",
+		"/M/cm/mobileCoder02/src/js/main.js",
+		"/M/_BrowserifyGulp/rebellion_rising_m/package.json",
+		"/M/_BrowserifyGulp/starter pack/index.html",
+		"/M/_BrowserifyGulp/starter pack/js/main.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"C:\\Users\\Lenovo\\Documents\\2013-14 CityU\\OCIO\\panotour\\ToDicksonTest\\toDicksondata",
+			"C:\\Users\\Lenovo\\.nodejs\\ludo",
+			"C:\\Users\\Lenovo\\.nodejs\\myapp",
+			"C:\\Users\\Lenovo\\Documents\\2013-14 CityU\\mobile app lab\\AI_Steering",
+			"",
+			"C:\\Users\\Lenovo\\Documents\\2013-14 CityU\\AI Game\\BitBucket\\cs4386-project\\js",
+			"C:\\Users\\Lenovo\\Documents\\2013-14 CityU\\AI Game\\BitBucket\\cs4386-project\\",
+			"C:\\Users\\Lenovo\\Documents\\2013-14 CityU\\AI Game\\BitBucket\\cs4386-project\\lab\\Jason Lab",
+			"C:\\Users\\Lenovo\\Documents\\2013-14 CityU\\AI Game\\BitBucket\\cs4386-project",
+			"C:\\Users\\Lenovo\\Adobe Flash Builder 4.7\\mobile_cityu\\server_src"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"digit button",
+			"class=\"digit\"",
+			"pos",
+			"this\\..*?=(.*?);",
+			",\\n",
+			"(\\d+)",
+			"(\\d{4})",
+			"                                                                                  ",
+			" {2,1000}",
+			"</?div>",
+			"&nbsp;",
+			"INF",
+			"1",
+			"9",
+			"5",
+			"4",
+			"3",
+			"2",
+			"0",
+			"config",
+			"        ",
+			"auto",
+			"resume",
+			"splitText",
+			"_initAudio",
+			"log",
+			"SpeechSynthesisUtterance\\W",
+			"onend",
+			"SpeechSynthesisUtterance\\W",
+			"SpeechSynthesisUtterance",
+			"getSpeechSynthesisUtterance",
+			"onend",
+			"speak",
+			"onend",
+			"remaining",
+			"remainingInversions",
+			"inversionsGoingToMake",
+			"con",
+			"length (\\d+)\\stakes\\sprogram .\\s(\\d+),\\s+.............",
+			"length (\\d+)\\stakes\\sprogram .\\s(\\d+),\\s+............",
+			"length (\\d+)\\stakes\\sprogram .\\s(\\d+),\\s+milliseconds.",
+			",",
+			"length",
+			"img",
+			"collapse",
+			"setStyles",
+			"debug_cycle",
+			"add",
+			";",
+			"nextMove",
+			"game",
+			"ss",
+			"game",
+			"call",
+			"callback",
+			"actors",
+			"controller",
+			"data",
+			"target",
+			"default_obj",
+			"for",
+			"set",
+			"Output",
+			"IO",
+			"out",
+			"]);",
+			"getHPLines",
+			"\"+\"\";\n",
+			"getName",
+			"Out",
+			"getHP",
+			"run",
+			"game",
+			"Slime",
+			"windowresize",
+			"(Obj-.)\\s(.*?)\\s(By.*)",
+			"1024",
+			"dire",
+			"full",
+			"768",
+			"		$",
+			"config",
+			"disable",
+			"reverse",
+			"sidebarDrag",
+			"dataset",
+			"coc_marker",
+			"remove_range_markers_if_needed",
+			"(ranges: \\[.*?\\])",
+			"sidebar_hide_button",
+			"remove",
+			"me",
+			"range_marker",
+			"tower_icon",
+			"range_marker2",
+			"yellow",
+			"toggle_range_markers",
+			"me",
+			"toggle_range_markers",
+			"console",
+			"range_marker2",
+			"this",
+			"remove_range_markers",
+			"this",
+			"toggle_range_markers",
+			"canDrawRange",
+			"default",
+			"param_def",
+			"params",
+			"O",
+			"ot",
+			"nt",
+			"ot",
+			"embedp",
+			"embed",
+			"View knows start button is clicked\ndispatch sig loadBody\nMedApp switchView()\nchanging view to A...\nVBody created\nmedbody construct\nVBody cc\nMedBody init\nCmdA loads name list\nhi auntie,hi uncle,hi daddy,hi mommy,hi bro,hi sis,hi myself,hihi\nmedWelcome destroy()\nback button pressed\nMedApp go_home()\nchanging view to B...\nVWelcome started\nmedwelcome constructor\nsButton b created\nsButton created\nmedwelcome init()",
+			"VBody cc\nMedBody init\nCmdA loads name list\nhi auntie,hi uncle,hi daddy,hi mommy,hi bro,hi sis,hi myself,hihi\nmedWelcome destroy()\nback button pressed\nMedApp go_home()\nchanging view to B...\nVWelcome started\nmedwelcome constructor\nsButton b created\nsButton created\nmedwelcome init()",
+			"View knows start button is clicked\ndispatch sig loadBody\nMedApp switchView()\nchanging view to A...\nVBody created\nmedbody construct",
+			"\nMBody construct",
+			"welcome button is pressed\nchanging view to body...\nadded to stage\ncontrol init list\nhi auntie,hi uncle,hi daddy,hi mommy,hi bro,hi sis,hi myself,hihi\nset names_ac on  model\npm knows about model update\nVBody cc\npopping view...\nVWelcome cc",
+			"welcome button is pressed",
+			"MBody construct",
+			"View knows start button is clicked\ndispatch sig loadBody\nMedApp switchView()\nchanging view to A...\nVBody created",
+			"View knows start button is clicked\ndispatch sig loadBody\nMedApp switchView()\nchanging view to A...\nVBody created\nmedbody construct\nMBody construct",
+			"View knows start button is clicked\ndispatch sig loadBody\nMedApp switchView()\nchanging view to A...\nVBody created\nmedbody construct\nMBody construct\nVBody cc\nMedBody init",
+			"medWelcome destroy()\nback button pressed\nMedApp go_home()\nchanging view to B...\nVWelcome started\nmedwelcome constructor\nsButton b created\nsButton created\nmedwelcome init()",
+			"changing view to B...\nVWelcome started\nmedwelcome constructor\nsButton b created\nsButton created\nmedwelcome init()",
+			"medwelcome constructor"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"digit",
+			"class=\"digit button\"",
+			"public set$1($1){this.$1 = $1;}",
+			"},\\n",
+			"},",
+			"$1,",
+			"\\n",
+			" ",
+			"___",
+			"  1",
+			"  9",
+			"  5",
+			"  4",
+			"  3",
+			"  2",
+			"INF",
+			"db['blog']",
+			"",
+			"$1\\t$2",
+			"",
+			";\\n",
+			"1. [$1] $2, $3",
+			"bg:\"\",\\n\\t\\t\\t\\t$1",
+			"$1\\n",
+			"=",
+			"?",
+			":",
+			"/",
+			"",
+			"residence_6_12",
+			"residence_5_11",
+			"residence_4_10",
+			"residence_3_9",
+			"countSix",
+			"canStartList",
+			"getCan",
+			"canMoveList",
+			" */",
+			"*/",
+			"/*$1*/\\n",
+			"/*$1*/",
+			"db.getRoomID",
+			"",
+			";\\n",
+			"",
+			" ",
+			"isSuccess$1",
+			"isSuccess",
+			"",
+			"'",
+			"$1JOIN_ROOM(",
+			"$1ROLL(",
+			"$1MOVE(",
+			"Dickson is dice king",
+			"6,\"",
+			" {",
+			"key.l",
+			"key.k",
+			"key.",
+			"pid",
+			"(photo)",
+			"\\n\\n",
+			"00:00:00,000",
+			"99:99:99,999",
+			"",
+			"// ",
+			"",
+			"\\n\\],\\[\\n",
+			"\\t$1\\n",
+			"$1\\n",
+			"\\},\\n\\{",
+			"},\\n{",
+			"// $1",
+			"//echo",
+			"//var_dump",
+			"echo \"$1\\\\n\";",
+			"echo \"(.*?)\\\\n\";",
+			"",
+			"opacity:0.2",
+			"opacity:0.1",
+			"\" + \\n\\t\"",
+			"\" + \\n\"",
+			"/**/ ",
+			"    ",
+			"/*$1*/\\n",
+			"/*$1*/",
+			"  ",
+			"target",
+			"Config.nuclearPlant.p",
+			"Config.laserTower.",
+			"Config.freezeTower.",
+			"Config.reflectTower.",
+			"Config.attackTower.",
+			"Config.enemy.",
+			"\\.\\n",
+			".\\n",
+			"others",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/index.html",
+					"settings":
+					{
+						"buffer_size": 1416,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1276,
+								1276
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright - ver Dickson.tmTheme",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 329.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/js/cal.js",
+					"settings":
+					{
+						"buffer_size": 34,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								25,
+								25
+							]
+						],
+						"settings":
+						{
+							"auto_name": "// cal.js",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright - ver Dickson.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "src/css/style.css",
+					"settings":
+					{
+						"buffer_size": 393,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								280,
+								280
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright - ver Dickson.tmTheme",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 100.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.574417192431,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 118.0,
+	"status_bar_visible": true
+}
