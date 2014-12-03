@@ -4,6 +4,58 @@
 		"selected_items":
 		[
 			[
+				"clear",
+				"clearAll"
+			],
+			[
+				"set",
+				"setBufferSign"
+			],
+			[
+				"cl",
+				"cl	console.log"
+			],
+			[
+				"buff",
+				"bufferSign"
+			],
+			[
+				"is",
+				"isNew"
+			],
+			[
+				"bu",
+				"bufferLength"
+			],
+			[
+				"get",
+				"getBufferLength"
+			],
+			[
+				"clea",
+				"clearExpression"
+			],
+			[
+				"cal",
+				"calculator"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"call",
+				"callback:function"
+			],
+			[
+				"ch",
+				"chooseSign"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
 				"back",
 				"background-color"
 			],
@@ -38,14 +90,6 @@
 			[
 				"ne",
 				"nextMove"
-			],
-			[
-				"call",
-				"callbacks"
-			],
-			[
-				"get",
-				"getDescription"
 			],
 			[
 				"des",
@@ -228,14 +272,6 @@
 				"joinedRoom"
 			],
 			[
-				"fon",
-				"font-family"
-			],
-			[
-				"font",
-				"font-size"
-			],
-			[
 				"fun",
 				"function"
 			],
@@ -300,10 +336,6 @@
 				"font-weight"
 			],
 			[
-				"is",
-				"isValidJSON"
-			],
-			[
 				"outer",
 				"outerRingPos"
 			],
@@ -338,10 +370,6 @@
 			[
 				"pos",
 				"position"
-			],
-			[
-				"cl",
-				"disableClick"
 			],
 			[
 				"r",
@@ -398,10 +426,6 @@
 			[
 				"btn-r",
 				"btn-research-center"
-			],
-			[
-				"ch",
-				"cheungKong"
 			],
 			[
 				"s",
@@ -480,30 +504,50 @@
 	"buffers":
 	[
 		{
-			"contents": "<html>\n<head>\n	<title>Web Cal Chui Hin Wah</title>\n	\n	<link rel=\"stylesheet\" type=\"text/css\" href=\"css/reset.css\">\n	<link rel=\"stylesheet\" type=\"text/css\" href=\"css/clearfix.css\">\n	<link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\">\n	<script src=\"./js/cal.js\" type=\"text/javascript\" charset=\"utf-8\" ></script>\n</head>\n<body>\n\n	<div id=\"frame\">\n		<div id=\"result-bar\">\n			<div id=\"result\"></div>\n		</div>\n		<div id=\"buttons\">\n			<div id=\"digits\">\n				<div id=\"digits-normal\">\n					<div class=\"digits-normal-row clearfix\">\n						<div class=\"digit\"><div class=\"button\">7</div></div>\n						<div class=\"digit\"><div class=\"button\">8</div></div>\n						<div class=\"digit\"><div class=\"button\">9</div></div>\n					</div>\n					<div class=\"digits-normal-row clearfix\">\n						<div class=\"digit\"><div class=\"button\">4</div></div>\n						<div class=\"digit\"><div class=\"button\">5</div></div>\n						<div class=\"digit\"><div class=\"button\">6</div></div>\n					</div>\n					<div class=\"digits-normal-row clearfix\">\n						<div class=\"digit\"><div class=\"button\">1</div></div>\n						<div class=\"digit\"><div class=\"button\">2</div></div>\n						<div class=\"digit\"><div class=\"button\">3</div></div>\n					</div>\n				</div>\n				<div id=\"digits-bar\">\n					<div class=\"digit\"><div class=\"button button-\">0</div></div>\n				</div>\n			</div>\n			<div id=\"operations\">\n				\n			</div>\n			\n		</div>\n		<div id=\"credit\"></div>\n	</div>\n\n</body>\n</html>",
-			"file": "src/index.html",
-			"file_size": 1455,
-			"file_write_time": 130620134720276725,
+			"file": "src/js/config.js",
 			"settings":
 			{
-				"buffer_size": 1416,
+				"buffer_size": 675,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/js/cal.js",
+			"file": "src/js/calculationModelLocal.js",
 			"settings":
 			{
-				"buffer_size": 34,
-				"line_ending": "Windows",
-				"name": "// cal.js"
+				"buffer_size": 1261,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/js/calculator.js",
+			"settings":
+			{
+				"buffer_size": 5001,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/js/main.js",
+			"settings":
+			{
+				"buffer_size": 2000,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/index.html",
+			"settings":
+			{
+				"buffer_size": 3492,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "src/css/style.css",
 			"settings":
 			{
-				"buffer_size": 393,
+				"buffer_size": 1302,
 				"line_ending": "Windows"
 			}
 		}
@@ -511,12 +555,24 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 196.0,
 		"selected_items":
 		[
 			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
 				"inde",
 				"Indentation: Reindent Lines"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
 			],
 			[
 				"indent",
@@ -553,10 +609,6 @@
 			[
 				"she",
 				"Set Syntax: Shell Script (Bash)"
-			],
-			[
-				"js",
-				"Set Syntax: JavaScript"
 			],
 			[
 				"pc",
@@ -619,16 +671,8 @@
 				"Package Control: Install Package"
 			],
 			[
-				"wrap",
-				"Word Wrap: Toggle"
-			],
-			[
 				"php",
 				"Set Syntax: PHP"
-			],
-			[
-				"css",
-				"Set Syntax: CSS"
 			],
 			[
 				"for",
@@ -675,7 +719,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 512.0
+		"width": 400.0
 	},
 	"console":
 	{
@@ -692,6 +736,14 @@
 	},
 	"file_history":
 	[
+		"/M/_season02/WebCal/src/js/ajaxHelper.js",
+		"/M/_season02/WebCal/src/js/cal.js",
+		"/M/_season02/WebCal/src/js/signal.js",
+		"/M/_season02/WebCal/src/js/ajax.js",
+		"/M/_season02/WebCal/src/js/event.js",
+		"/M/_season02/WebCal/src/css/reset.css",
+		"/M/_season02/MaaGeeKey/index.html",
+		"/M/_season02/WebCal/src/css/noselect.css",
 		"/M/_season02/WebCal/index.html",
 		"/C/Users/Lenovo/alljoyn-android/core/alljoyn-14.06.00a-dbg/README.txt",
 		"/C/Users/Lenovo/Documents/2014-15 UKent CityU/dickson039scasualnotes.wordpress.2014-10-26.xml",
@@ -725,7 +777,6 @@
 		"/C/Users/Lenovo/android-sdks/extras/google/usb_driver/android_winusb.inf",
 		"/M/_season02/MaaGeeKey/js/game.js",
 		"/M/_season02/MaaGeeKey/js/config.js",
-		"/M/_season02/MaaGeeKey/index.html",
 		"/M/_season02/MaaGeeKey/js/creatures/players/warrior.js",
 		"/M/_season02/MaaGeeKey/css/style.css",
 		"/M/_season02/MaaGeeKey/js/actors/monsters/slime.js",
@@ -812,14 +863,7 @@
 		"/M/_BrowserifyGulp/snakePro/gulpfile.js",
 		"/M/_BrowserifyGulp/rebellionRisingMobile/src/js/actors/ball.js",
 		"/M/_BrowserifyGulp/rebellionRisingMobile/src/package.json",
-		"/M/_BrowserifyGulp/rebellionRisingMobile/src/gulpfile.js",
-		"/M/cm/mobileCoder02/src/package.json",
-		"/M/cm/mobileCoder02/src/gulpfile.js",
-		"/M/cm/mobileCoder02/src/index.html",
-		"/M/cm/mobileCoder02/src/js/main.js",
-		"/M/_BrowserifyGulp/rebellion_rising_m/package.json",
-		"/M/_BrowserifyGulp/starter pack/index.html",
-		"/M/_BrowserifyGulp/starter pack/js/main.js"
+		"/M/_BrowserifyGulp/rebellionRisingMobile/src/gulpfile.js"
 	],
 	"find":
 	{
@@ -847,6 +891,32 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"isNew",
+			"[^;]\\n",
+			"result",
+			"buffer",
+			"bufferSignal",
+			"ajaxHelper",
+			"bufferLength",
+			"class=\"button noselect\">",
+			"getResult",
+			"button noselect\">",
+			"get[rR]",
+			"this.buffer[^L]",
+			"this.buffer",
+			"this.setResult\\((.*?)\\);",
+			"this.setResult(this.buffer);",
+			"this.setResult\\((.*?)\\);",
+			"this.result\\s?=\\s?(.*?);",
+			"_evaluateToResult",
+			"_pushBufferToResult",
+			"(<div class=\"button)(\">.*?</div>)",
+			"(<div class=\"button\">\\d</div>)",
+			"digit\"",
+			"digit",
+			"operator",
+			"Operators",
+			"operators",
 			"digit button",
 			"class=\"digit\"",
 			"pos",
@@ -948,40 +1018,19 @@
 			"toggle_range_markers",
 			"console",
 			"range_marker2",
-			"this",
-			"remove_range_markers",
-			"this",
-			"toggle_range_markers",
-			"canDrawRange",
-			"default",
-			"param_def",
-			"params",
-			"O",
-			"ot",
-			"nt",
-			"ot",
-			"embedp",
-			"embed",
-			"View knows start button is clicked\ndispatch sig loadBody\nMedApp switchView()\nchanging view to A...\nVBody created\nmedbody construct\nVBody cc\nMedBody init\nCmdA loads name list\nhi auntie,hi uncle,hi daddy,hi mommy,hi bro,hi sis,hi myself,hihi\nmedWelcome destroy()\nback button pressed\nMedApp go_home()\nchanging view to B...\nVWelcome started\nmedwelcome constructor\nsButton b created\nsButton created\nmedwelcome init()",
-			"VBody cc\nMedBody init\nCmdA loads name list\nhi auntie,hi uncle,hi daddy,hi mommy,hi bro,hi sis,hi myself,hihi\nmedWelcome destroy()\nback button pressed\nMedApp go_home()\nchanging view to B...\nVWelcome started\nmedwelcome constructor\nsButton b created\nsButton created\nmedwelcome init()",
-			"View knows start button is clicked\ndispatch sig loadBody\nMedApp switchView()\nchanging view to A...\nVBody created\nmedbody construct",
-			"\nMBody construct",
-			"welcome button is pressed\nchanging view to body...\nadded to stage\ncontrol init list\nhi auntie,hi uncle,hi daddy,hi mommy,hi bro,hi sis,hi myself,hihi\nset names_ac on  model\npm knows about model update\nVBody cc\npopping view...\nVWelcome cc",
-			"welcome button is pressed",
-			"MBody construct",
-			"View knows start button is clicked\ndispatch sig loadBody\nMedApp switchView()\nchanging view to A...\nVBody created",
-			"View knows start button is clicked\ndispatch sig loadBody\nMedApp switchView()\nchanging view to A...\nVBody created\nmedbody construct\nMBody construct",
-			"View knows start button is clicked\ndispatch sig loadBody\nMedApp switchView()\nchanging view to A...\nVBody created\nmedbody construct\nMBody construct\nVBody cc\nMedBody init",
-			"medWelcome destroy()\nback button pressed\nMedApp go_home()\nchanging view to B...\nVWelcome started\nmedwelcome constructor\nsButton b created\nsButton created\nmedwelcome init()",
-			"changing view to B...\nVWelcome started\nmedwelcome constructor\nsButton b created\nsButton created\nmedwelcome init()",
-			"medwelcome constructor"
+			"this"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
+			"this.result = $1;",
+			"this.result = $1",
+			"this.setResult($1);",
+			"$1 noselect$2",
+			"\\n$1\\n",
 			"digit",
 			"class=\"digit button\"",
 			"public set$1($1){this.$1 = $1;}",
@@ -1090,61 +1139,116 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/index.html",
+					"file": "src/js/config.js",
 					"settings":
 					{
-						"buffer_size": 1416,
+						"buffer_size": 675,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1276,
-								1276
+								420,
+								424
 							]
 						],
 						"settings":
 						{
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright - ver Dickson.tmTheme",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 329.0,
+						"translation.y": 234.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "src/js/cal.js",
+					"file": "src/js/calculationModelLocal.js",
 					"settings":
 					{
-						"buffer_size": 34,
+						"buffer_size": 1261,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								25,
-								25
+								635,
+								635
 							]
 						],
 						"settings":
 						{
-							"auto_name": "// cal.js",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright - ver Dickson.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 625.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/js/calculator.js",
+					"settings":
+					{
+						"buffer_size": 5001,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2871,
+								2871
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright - ver Dickson.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1934.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/js/main.js",
+					"settings":
+					{
+						"buffer_size": 2000,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1237,
+								1237
+							]
+						],
+						"settings":
+						{
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright - ver Dickson.tmTheme",
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 180.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1156,19 +1260,48 @@
 			"sheets":
 			[
 				{
-					"buffer": 2,
-					"file": "src/css/style.css",
+					"buffer": 4,
+					"file": "src/index.html",
 					"settings":
 					{
-						"buffer_size": 393,
+						"buffer_size": 3492,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								280,
-								280
+								591,
+								612
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright - ver Dickson.tmTheme",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 40.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/css/style.css",
+					"settings":
+					{
+						"buffer_size": 1302,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								128,
+								128
 							]
 						],
 						"settings":
@@ -1178,7 +1311,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 100.0,
+						"translation.y": 119.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1214,7 +1347,7 @@
 		"cols":
 		[
 			0.0,
-			0.574417192431,
+			0.901442307692,
 			1.0
 		],
 		"rows":

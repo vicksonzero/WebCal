@@ -5,14 +5,16 @@
 // pretending CommonJS
 // var $ = require("config");
 
-var ajaxHelper = (function() {
+var calculationModel = (function() {
 
-	var ajaxHelper = {};
+	var calculationModel = {};
 
 
-	ajaxHelper.getResult = function getResult(args) {
+	calculationModel.getCalculateResult = function getCalculateResult(args) {
 		if (!checkArgumentFormat(args)) return false;
 		var result;
+		var a = args.a;
+		var b = args.b;
 		switch (args.sign) {
 			case config.enumSigns.PLUS:
 				result = a + b;
@@ -27,7 +29,9 @@ var ajaxHelper = (function() {
 				result = a / b;
 				break;
 		}
-		args.callback();
+		result = Math.floor(result);
+		console.log(result);
+		args.callback(result);//, resultExponent);
 	};
 
 
@@ -54,6 +58,6 @@ var ajaxHelper = (function() {
 		return functionToCheck && getType.toString.call(functionToCheck) === '[object Function]';
 	}
 
-	return ajaxHelper;
+	return calculationModel;
 
 })();

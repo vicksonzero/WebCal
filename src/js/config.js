@@ -5,13 +5,15 @@
 var config = (function() {
 	var config = {
 		displayLength: 8,
+		leadCharacter: "",
+		leadCharacterEmpty: "0",
 		enumSigns: {
 			PLUS: 0,
 			MINUS: 1,
 			MULTIPLY: 2,
 			DIVIDE: 3
-		}
-		signToEnum:signToEnum;
+		},
+		signToEnum:signToEnum
 	};
 
 	return config;
@@ -22,6 +24,7 @@ var config = (function() {
 	 * @return {config.enum}    enumerated sign
 	 */
 	function signToEnum(sign) {
+		console.log(sign);
 		switch (sign) {
 			case '+':
 				return config.enumSigns.PLUS;
