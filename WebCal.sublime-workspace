@@ -4,20 +4,80 @@
 		"selected_items":
 		[
 			[
-				"clear",
-				"clearAll"
+				"TOO",
+				"TOOLONG"
 			],
 			[
-				"set",
-				"setBufferSign"
+				"clea",
+				"clearFlags"
+			],
+			[
+				"dis",
+				"displayLength"
+			],
+			[
+				"case",
+				"calStateWaiting"
+			],
+			[
+				"ne",
+				"nextState"
+			],
+			[
+				"me",
+				"messages"
+			],
+			[
+				"result",
+				"resultExponent"
+			],
+			[
+				"calS",
+				"calStateSecondNumber"
+			],
+			[
+				"calSt",
+				"calStateSign"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"r",
+				"return"
+			],
+			[
+				"st",
+				"state"
+			],
+			[
+				"onPre",
+				"onPressEqual"
 			],
 			[
 				"cl",
 				"cl	console.log"
 			],
 			[
+				"clear",
+				"clearBuffer"
+			],
+			[
+				"buffer",
+				"bufferIsFull"
+			],
+			[
+				"calState",
+				"calStateFirstNumber"
+			],
+			[
 				"buff",
-				"bufferSign"
+				"buffer"
+			],
+			[
+				"set",
+				"setBufferSign"
 			],
 			[
 				"is",
@@ -30,10 +90,6 @@
 			[
 				"get",
 				"getBufferLength"
-			],
-			[
-				"clea",
-				"clearExpression"
 			],
 			[
 				"cal",
@@ -86,10 +142,6 @@
 			[
 				"nex",
 				"nextBeatStart"
-			],
-			[
-				"ne",
-				"nextMove"
 			],
 			[
 				"des",
@@ -372,10 +424,6 @@
 				"position"
 			],
 			[
-				"r",
-				"rgba()"
-			],
-			[
 				"dept",
 				"dept_name"
 			],
@@ -466,48 +514,72 @@
 			[
 				"near",
 				"nearEnemy"
-			],
-			[
-				"nearest",
-				"nearestDist"
-			],
-			[
-				"fi",
-				"findNearestEnemy"
-			],
-			[
-				"nea",
-				"nearest"
-			],
-			[
-				"d",
-				"damage"
-			],
-			[
-				"upda",
-				"updatePosition"
-			],
-			[
-				"co",
-				"console"
-			],
-			[
-				"sprite",
-				"sprite_origin"
-			],
-			[
-				"new",
-				"newEnemy"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "src/js/config.js",
+			"file": "src/js/calStates/calStateStart.js",
 			"settings":
 			{
-				"buffer_size": 675,
+				"buffer_size": 600,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/js/calStates/calStateFirstNumber.js",
+			"settings":
+			{
+				"buffer_size": 946,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/js/calStates/calStateSign.js",
+			"settings":
+			{
+				"buffer_size": 1219,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/js/calStates/calStateSecondNumber.js",
+			"settings":
+			{
+				"buffer_size": 1091,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/js/calStates/calStateAnswer.js",
+			"settings":
+			{
+				"buffer_size": 1058,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/js/calStates/calStateAnswerSign.js",
+			"settings":
+			{
+				"buffer_size": 1225,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/js/calStates/calStateError.js",
+			"settings":
+			{
+				"buffer_size": 576,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/js/calStates/calStateWaiting.js",
+			"settings":
+			{
+				"buffer_size": 555,
 				"line_ending": "Windows"
 			}
 		},
@@ -515,7 +587,15 @@
 			"file": "src/js/calculationModelLocal.js",
 			"settings":
 			{
-				"buffer_size": 1261,
+				"buffer_size": 1713,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/js/config.js",
+			"settings":
+			{
+				"buffer_size": 809,
 				"line_ending": "Windows"
 			}
 		},
@@ -523,15 +603,7 @@
 			"file": "src/js/calculator.js",
 			"settings":
 			{
-				"buffer_size": 373,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/js/calStart.js",
-			"settings":
-			{
-				"buffer_size": 485,
+				"buffer_size": 3710,
 				"line_ending": "Windows"
 			}
 		},
@@ -539,7 +611,7 @@
 			"file": "src/js/main.js",
 			"settings":
 			{
-				"buffer_size": 2000,
+				"buffer_size": 3876,
 				"line_ending": "Windows"
 			}
 		},
@@ -547,7 +619,7 @@
 			"file": "src/index.html",
 			"settings":
 			{
-				"buffer_size": 3492,
+				"buffer_size": 4371,
 				"line_ending": "Windows"
 			}
 		},
@@ -555,7 +627,15 @@
 			"file": "src/css/style.css",
 			"settings":
 			{
-				"buffer_size": 1302,
+				"buffer_size": 1434,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/README.md",
+			"settings":
+			{
+				"buffer_size": 1943,
 				"line_ending": "Windows"
 			}
 		}
@@ -563,9 +643,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 196.0,
+		"height": 334.0,
 		"selected_items":
 		[
+			[
+				"mark",
+				"Set Syntax: MultiMarkdown"
+			],
 			[
 				"js",
 				"Set Syntax: JavaScript"
@@ -637,10 +721,6 @@
 			[
 				"mdpr",
 				"Markdown Preview: Open Markdown Cheat sheet"
-			],
-			[
-				"mark",
-				"Set Syntax: Markdown"
 			],
 			[
 				"pci",
@@ -727,7 +807,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 400.0
+		"width": 512.0
 	},
 	"console":
 	{
@@ -744,16 +824,23 @@
 	},
 	"file_history":
 	[
+		"/M/_season02/WebCal/src/js/main.js",
+		"/M/_season02/WebCal/src/README.md",
+		"/M/_season02/WebCal/index.html",
+		"/M/_season02/WebCal/src/css/reset.css",
+		"/M/_season02/WebCal/src/js/calStates/calStateSign.js",
+		"/M/_season02/WebCal/src/js/calStates/calStateAnswerSign.js",
+		"/M/_season02/WebCal/src/js/calStates/calStateAnswer.js",
+		"/M/_season02/WebCal/src/js/calStateStart.js",
+		"/M/_season02/WebCal/src/js/calStart.js",
 		"/C/Program Files (x86)/Unity/Editor/Unity.exe.testLog",
 		"/M/_season02/WebCal/src/js/ajaxHelper.js",
 		"/M/_season02/WebCal/src/js/cal.js",
 		"/M/_season02/WebCal/src/js/signal.js",
 		"/M/_season02/WebCal/src/js/ajax.js",
 		"/M/_season02/WebCal/src/js/event.js",
-		"/M/_season02/WebCal/src/css/reset.css",
 		"/M/_season02/MaaGeeKey/index.html",
 		"/M/_season02/WebCal/src/css/noselect.css",
-		"/M/_season02/WebCal/index.html",
 		"/C/Users/Lenovo/alljoyn-android/core/alljoyn-14.06.00a-dbg/README.txt",
 		"/C/Users/Lenovo/Documents/2014-15 UKent CityU/dickson039scasualnotes.wordpress.2014-10-26.xml",
 		"/M/_season02/_unity/aeroplane1/Assets/Scripts/cloud/chunkBehaviour.cs",
@@ -864,14 +951,7 @@
 		"/M/_BrowserifyGulp/snakePro/css/main.css",
 		"/M/_BrowserifyGulp/snakePro/js/bundle.js",
 		"/M/_BrowserifyGulp/snakePro/gulp browserify reload.bat",
-		"/M/_BrowserifyGulp/rebellionRisingMobile/src/index.html",
-		"/M/_BrowserifyGulp/rebellionRisingMobile/src/js/main.js",
-		"/M/_BrowserifyGulp/rebellionRisingMobile/src/js/rooms/roomManager.js",
-		"/M/_BrowserifyGulp/rebellionRisingMobile/src/js/actors/Ball.js",
-		"/M/_BrowserifyGulp/rebellionRisingMobile/src/js/rooms/Room.js",
-		"/M/_BrowserifyGulp/snakePro/gulpfile.js",
-		"/M/_BrowserifyGulp/rebellionRisingMobile/src/js/actors/ball.js",
-		"/M/_BrowserifyGulp/rebellionRisingMobile/src/package.json"
+		"/M/_BrowserifyGulp/rebellionRisingMobile/src/index.html"
 	],
 	"find":
 	{
@@ -899,6 +979,23 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"cal.buffer",
+			"isWaiting",
+			"span",
+			"this",
+			"Prim",
+			"CalStateError",
+			"calStateAnswerSign",
+			"CalStateSecondNumber",
+			"parent.",
+			"bufferIsFull",
+			"[state]",
+			"\"calState(.*?)\":",
+			"\"(cal.*?)\":\\s*$",
+			"(cal.*?)\\s*$",
+			"// var (cal.*?)$",
+			"CalStateStart",
+			"calculator.",
 			"Cal",
 			"isNew",
 			"[^;]\\n",
@@ -1009,24 +1106,7 @@
 			"		$",
 			"config",
 			"disable",
-			"reverse",
-			"sidebarDrag",
-			"dataset",
-			"coc_marker",
-			"remove_range_markers_if_needed",
-			"(ranges: \\[.*?\\])",
-			"sidebar_hide_button",
-			"remove",
-			"me",
-			"range_marker",
-			"tower_icon",
-			"range_marker2",
-			"yellow",
-			"toggle_range_markers",
-			"me",
-			"toggle_range_markers",
-			"console",
-			"range_marker2"
+			"reverse"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1034,6 +1114,10 @@
 		"regex": true,
 		"replace_history":
 		[
+			"\"$1\":",
+			"<script src=\"./js/$1.js\" type=\"text/javascript\" charset=\"utf-8\" ></script>",
+			"\"$1\":$1",
+			"// var $1 = require(\"$1\");",
 			"this.result = $1;",
 			"this.result = $1",
 			"this.setResult($1);",
@@ -1147,23 +1231,23 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/js/config.js",
+					"file": "src/js/calStates/calStateStart.js",
 					"settings":
 					{
-						"buffer_size": 675,
+						"buffer_size": 600,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								420,
-								424
+								384,
+								384
 							]
 						],
 						"settings":
@@ -1173,25 +1257,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 234.0,
+						"translation.y": 80.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "src/js/calculationModelLocal.js",
+					"file": "src/js/calStates/calStateFirstNumber.js",
 					"settings":
 					{
-						"buffer_size": 1261,
+						"buffer_size": 946,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								635,
-								635
+								452,
+								452
 							]
 						],
 						"settings":
@@ -1201,25 +1285,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 625.0,
+						"translation.y": 120.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "src/js/calculator.js",
+					"file": "src/js/calStates/calStateSign.js",
 					"settings":
 					{
-						"buffer_size": 373,
+						"buffer_size": 1219,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								339,
-								339
+								1075,
+								1160
 							]
 						],
 						"settings":
@@ -1229,31 +1313,60 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 20.0,
+						"translation.y": 40.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "src/js/calStart.js",
+					"file": "src/js/calStates/calStateSecondNumber.js",
 					"settings":
 					{
-						"buffer_size": 485,
+						"buffer_size": 1091,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								348,
-								348
+								1024,
+								1024
 							]
 						],
 						"settings":
 						{
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright - ver Dickson.tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 40.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/js/calStates/calStateAnswer.js",
+					"settings":
+					{
+						"buffer_size": 1058,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								949,
+								949
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright - ver Dickson.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1262,19 +1375,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "src/js/main.js",
+					"buffer": 5,
+					"file": "src/js/calStates/calStateAnswerSign.js",
 					"settings":
 					{
-						"buffer_size": 2000,
+						"buffer_size": 1225,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1237,
-								1237
+								1075,
+								1160
 							]
 						],
 						"settings":
@@ -1284,7 +1397,91 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 180.0,
+						"translation.y": 160.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/js/calStates/calStateError.js",
+					"settings":
+					{
+						"buffer_size": 576,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								360,
+								360
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright - ver Dickson.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 140.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/js/calStates/calStateWaiting.js",
+					"settings":
+					{
+						"buffer_size": 555,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								205,
+								205
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright - ver Dickson.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 100.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/js/calculationModelLocal.js",
+					"settings":
+					{
+						"buffer_size": 1713,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								957,
+								957
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright - ver Dickson.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 549.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1292,23 +1489,107 @@
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
-					"buffer": 5,
-					"file": "src/index.html",
+					"buffer": 9,
+					"file": "src/js/config.js",
 					"settings":
 					{
-						"buffer_size": 3492,
+						"buffer_size": 809,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								591,
-								612
+								387,
+								387
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright - ver Dickson.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "src/js/calculator.js",
+					"settings":
+					{
+						"buffer_size": 3710,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3453,
+								3466
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright - ver Dickson.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2358.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "src/js/main.js",
+					"settings":
+					{
+						"buffer_size": 3876,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2854,
+								2854
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright - ver Dickson.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1894.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "src/index.html",
+					"settings":
+					{
+						"buffer_size": 4371,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1764,
+								1764
 							]
 						],
 						"settings":
@@ -1318,26 +1599,26 @@
 							"translate_tabs_to_spaces": false,
 							"word_wrap": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 40.0,
+						"translation.x": 9.0,
+						"translation.y": 421.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 13,
 					"file": "src/css/style.css",
 					"settings":
 					{
-						"buffer_size": 1302,
+						"buffer_size": 1434,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								128,
-								128
+								237,
+								237
 							]
 						],
 						"settings":
@@ -1347,7 +1628,34 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 119.0,
+						"translation.y": 171.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "src/README.md",
+					"settings":
+					{
+						"buffer_size": 1943,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1374,
+								1374
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright - ver Dickson.tmTheme",
+							"syntax": "Packages/Markdown/MultiMarkdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 289.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1383,7 +1691,7 @@
 		"cols":
 		[
 			0.0,
-			0.7574632501,
+			0.257040725255,
 			1.0
 		],
 		"rows":
@@ -1418,6 +1726,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 220.0,
+	"side_bar_width": 71.0,
 	"status_bar_visible": true
 }
