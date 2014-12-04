@@ -14,7 +14,12 @@ var config = (function() {
 			MULTIPLY: 2,
 			DIVIDE: 3
 		},
-		greetings:"WebCal v1.1",
+		messages:{
+			"GREETINGS":"WebCal v1.1",
+			"D0": "DIV-0",
+			"ROUNDED": "Rounded",
+			"TOOLONG": "TOO LONG"
+		},
 		signToEnum:signToEnum
 	};
 
@@ -26,7 +31,7 @@ var config = (function() {
 	 * @return {config.enum}    enumerated sign
 	 */
 	function signToEnum(sign) {
-		console.log(sign);
+		//console.log(sign);
 		switch (sign) {
 			case '+':
 				return config.enumSigns.PLUS;

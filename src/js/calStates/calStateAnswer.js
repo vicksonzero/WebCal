@@ -36,6 +36,8 @@ var CalStateAnswer = (function() {
 	p.onPressEqual = function(){
 		// redo last operation
 		this.parent.memory = this.parent.answer;
+		this.parent.nextState = "calStateAnswer";
+		this.parent.state = "calStateWaiting";
 		this.parent.commit();
 		this.parent.displayFlag.redoOperation = true;
 	};

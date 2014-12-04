@@ -75,31 +75,39 @@ $(function() {
 	});
 
 	// Region: helper function
-	// param {cal} calculator instance
+	
+	/**
+	 * takes information from calculator cal and update document doc
+	 * @param  {associative array} doc   Array of selected dom elements
+	 * @param  {Calculator}        cal   Instance of calculator controller
+	 * @return {void}
+	 */
 	function updateScreen(doc, cal) {
 		// primary buffer: buffer and current sign
 		var str = "";
 		if (cal.state == "calStateAnswer" || cal.state == "calStateAnswerSign") {
-			str += cal.answer;
+			str = cal.answer;
 		} else {
-			str += cal.buffer;
+			str = cal.buffer;
 		}
 		if (cal.state == "calStateSign" || cal.state == "calStateAnswerSign") {
 			str += cal.sign;
 		}
 		if (cal.state == "calStateError") {
-			str += "-E-";
+			str = "Error: "+cal.errorMsg;
 		}
+		if(str=="") str="&nbsp;";
 		doc.screenPrimaryDiv.innerHTML = str;
 
-		// secondary buffer: current equation
+		// secondary buffer: current equation or debug string
 		str = "";
 		if (config.DEBUG) {
 			str += cal.getDebugString();
 		} else {
 			switch (cal.state) {
 			case "calStateStart":
-				str += config.greetings;
+				console.log(config.messages.GREETINGS);
+				str += config.messages.GREETINGS;
 				break;
 			case "calStateFirstNumber":
 				str += cal.buffer;
@@ -112,20 +120,23 @@ $(function() {
 				break;
 			case "calStateAnswer":
 				str += cal.memory + cal.sign + cal.buffer + "=";
+				if(cal.displayFlag.answerRounded) str+="(Rounded down)";
 				break;
 			case "calStateAnswerSign":
+				if(cal.displayFlag.answerRounded) str+="(Rounded down)";
 				str += cal.answer + cal.sign;
 				break;
 			case "calStateError":
-				str += "Error";
+				str += cal.memory + cal.sign + cal.buffer + "=";
 				break;
 			case "calStateWaiting":
 				str += "Waiting for server...";
 				break;
 			default:
-				str += "Unexpected state. is it possible?";
+				str += "Unexpected state. did you miss a break;?";
 			}
 		}
+		if(str=="") str="&nbsp;";
 		doc.screenSecondaryDiv.innerHTML = str;
 		// flash screen if displayFlag.bufferIsFull==false
 	}

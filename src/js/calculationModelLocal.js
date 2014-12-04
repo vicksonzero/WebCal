@@ -12,25 +12,45 @@ var calculationModel = (function() {
 
 	calculationModel.getCalculateResult = function getCalculateResult(args) {
 		if (!checkArgumentFormat(args)) return false;
-		var result;
+		var result = {
+			result:0,
+			resultExponent:0,
+			msg:""
+		};
 		var a = args.a;
 		var b = args.b;
 		switch (args.sign) {
 			case config.enumSigns.PLUS:
-				result = a + b;
+				result.result = a + b;
 				break;
 			case config.enumSigns.MINUS:
-				result = a - b;
+				result.result = a - b;
 				break;
 			case config.enumSigns.MULTIPLY:
-				result = a * b;
+				result.result = a * b;
 				break;
 			case config.enumSigns.DIVIDE:
-				result = a / b;
+				if(b===0){
+					result.msg = config.messages.D0;
+					args.callback(result);
+					return;
+				}
+				result.result = a / b;
 				break;
 		}
-		result = Math.floor(result);
-		console.log(result);
+
+		var roundedResult = Math.floor(result.result);
+		if((""+roundedResult).length>config.displayLength){
+			result.msg = config.messages.TOOLONG;
+			args.callback(result);
+			return;
+		}
+		if(roundedResult!=result.result){
+			result.msg = config.messages.ROUNDED;
+		}
+		result.result = roundedResult;
+
+		//console.log(result);
 		args.callback(result);//, resultExponent);
 	};
 

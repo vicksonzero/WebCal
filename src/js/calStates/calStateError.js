@@ -24,7 +24,7 @@ var CalStateError = (function() {
 		this.parent.state = "calStateStart";
 	};
 	p.onPressCE = function(){
-		return;
+		this.parent.state = "calStateAnswer";
 	};
 	p.onPressEqual = function(){
 		return;
