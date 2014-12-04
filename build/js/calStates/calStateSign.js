@@ -40,8 +40,9 @@ var CalStateSign = (function() {
 	p.onPressEqual = function(){
 		// special operation: += -= *= /=
 		this.parent.memory = this.parent.buffer;
+		this.parent.nextState = "calStateAnswer";
+		this.parent.state = "calStateWaiting";
 		this.parent.commit();
-		this.parent.state = "calStateAnswer";
 	};
 
 

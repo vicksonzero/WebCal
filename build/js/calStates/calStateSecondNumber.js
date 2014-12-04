@@ -38,8 +38,9 @@ var CalStateSecondNumber = (function() {
 		this.parent.state = "calStateSign";
 	};
 	p.onPressEqual = function(){
+		this.parent.nextState = "calStateAnswer";
+		this.parent.state = "calStateWaiting";
 		this.parent.commit();
-		this.parent.state = "calStateAnswer";
 	};
 
 

@@ -14,6 +14,7 @@
 
 var Calculator = (function() {
 	function Calculator() {
+		// state objects
 		this.states = {
 			"calStateStart": 		new CalStateStart(this),
 			"calStateFirstNumber": 	new CalStateFirstNumber(this),
@@ -24,6 +25,7 @@ var Calculator = (function() {
 			"calStateError": 		new CalStateError(this),
 			"calStateWaiting": 		new CalStateWaiting(this)
 		};
+		// state index
 		this.state = "calStateStart"; // start, firstNum, sign, secondNum,
 		this.answer = 0;
 		this.buffer = 0;
@@ -35,33 +37,40 @@ var Calculator = (function() {
 			redoOperation:false,
 			answerRounded:false
 		};
-		this.isWaiting = false;
+		this.errorMsg = "";
+		this.nextState = "";
 	}
 
 	var p = Calculator.prototype;
 
 	p.onPressDigit = function(digit) {
+		this.clearFlags();
 		this.states[this.state].onPressDigit(digit);
 
 	};
 	p.onPressOp = function(op) {
+		this.clearFlags();
 		this.states[this.state].onPressOp(op);
 
 	};
 	p.onPressAC = function() {
+		this.clearFlags();
 		this.states[this.state].onPressAC();
 
 	};
 	p.onPressCE = function() {
+		this.clearFlags();
 		this.states[this.state].onPressCE();
 
 	};
 	p.onPressEqual = function() {
+		this.clearFlags();
 		this.states[this.state].onPressEqual();
 
 	};
 	p.getBufferString = function() {
-		// display sign if state = sign
+	};
+	p.getDebugString = function() {
 		// display last calculation if answer mode
 		var str = "";
 		if(config.DEBUG){
@@ -69,16 +78,9 @@ var Calculator = (function() {
 				this.state+" ("+
 				"a: "+this.answer+
 				" m:"+this.memory+this.sign+
-				" b:"+this.buffer+")<br>";
+				" b:"+this.buffer+")";
 		}
-		if(this.state == "calStateAnswer" || this.state == "calStateAnswerSign"){
-			str+=this.answer;
-		}else{
-			str+=this.buffer;
-		}
-		if(this.state == "calStateSign" || this.state == "calStateAnswerSign"){
-			str+=this.sign;
-		}
+		
 		return str;
 	};
 
@@ -89,16 +91,23 @@ var Calculator = (function() {
 		this.sign = "";
 		this.memory = 0;
 
-		this.displayFlag.bufferIsFull = false;
-		this.displayFlag.redoOperation = false;
-		this.displayFlag.answerRounded = false;
+		this.clearFlags();
 
-		this.isWaiting = false;
+		this.errorMsg = "";
+		this.nextState = "";
 	}
 	p.clearBuffer = function(){
 		this.buffer = 0;
 		this.bufferLength = 0;
 		this.displayFlag.bufferIsFull=false;
+	}
+	p.clearFlags = function(){
+		this.displayFlag = {
+			bufferIsFull:false,
+			redoOperation:false,
+			answerTooLong:false,
+			answerRounded:false
+		};
 	}
 	p.bufferIsFull = function() {
 		return this.bufferLength >= config.displayLength;
@@ -114,13 +123,32 @@ var Calculator = (function() {
 			sign: 	config.signToEnum(this.sign), 
 			b: 		this.buffer,
 			callback:function(result){
+				console.log(result);
 				_commitResultHandler.call(_this,result);
 			}
 		});
 	};
 	p._commitResultHandler = _commitResultHandler;
 	function _commitResultHandler(result){
-		this.answer = result;
+		// exit if the user cancelled waiting
+		if(this.state !="calStateWaiting") return;
+		console.log(result);
+		switch(result.msg){
+		case config.messages.D0:
+			this.errorMsg = result.msg;
+			this.state = "calStateError";
+			break;
+		case config.messages.TOOLONG:
+			this.errorMsg = result.msg;
+			this.state = "calStateError";
+			break;
+		case config.messages.ROUNDED:
+			this.displayFlag.answerRounded = true;
+
+		default:
+			this.answer = result.result;
+			this.state = this.nextState;
+		}
 	};
 	return Calculator;
 
