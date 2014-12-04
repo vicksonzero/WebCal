@@ -88,7 +88,7 @@ $(function() {
 		if (cal.state == "calStateAnswer" || cal.state == "calStateAnswerSign") {
 			str = cal.answer;
 		} else {
-			str = cal.buffer;
+			str = ""+ cal.buffer;
 		}
 		if (cal.state == "calStateSign" || cal.state == "calStateAnswerSign") {
 			str += cal.sign;
