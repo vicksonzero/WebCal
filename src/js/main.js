@@ -12,7 +12,7 @@ $(function(){
 	var doc = {
 		screenBoxDiv: document.querySelector("#screen"            ),
 		clearExpDiv:  document.querySelector(".button[value='CE']"),
-		clearAllDiv:  document.querySelector(".button[value='CA']"),
+		clearAllDiv:  document.querySelector(".button[value='AC']"),
 		equalDiv: 	  document.querySelector(".button[value='=']"),
 		digitDivs:[],
 		operatorDivs:{}
@@ -33,19 +33,19 @@ $(function(){
 
 	// bind button: CE
 	doc.clearExpDiv.addEventListener("click", function(){
-		calculator.clearExpression();
+		calculator.onPressCE();
 		updateScreen(doc,calculator);
 	});
 
-	// bind button: CA
+	// bind button: AC
 	doc.clearAllDiv.addEventListener("click", function(){
-		calculator.clearAll();
+		calculator.onPressAC();
 		updateScreen(doc,calculator);
 	});
 
 	// bind button: =
 	doc.equalDiv.addEventListener("click", function(){
-		calculator.calculate();
+		calculator.onPressEqual();
 		updateScreen(doc,calculator);
 	});
 	
@@ -54,7 +54,7 @@ $(function(){
 		// closure: give every function a unique i
 		(function(digi){
 			doc.digitDivs[i].addEventListener("click", function(){
-			    calculator.addDigit(digi);
+			    calculator.onPressDigit(digi);
 			    updateScreen(doc,calculator);
 			});
 		})(i);// closure end
@@ -65,7 +65,7 @@ $(function(){
 		// closure: give every function a unique i
 		(function(op){
 			doc.operatorDivs[element].addEventListener("click", function(){
-			    calculator.chooseSign(op);
+			    calculator.onPressOp(op);
 			    updateScreen(doc,calculator);
 			});
 		})(element);// closure end
@@ -76,5 +76,6 @@ $(function(){
 	function updateScreen(doc,cal){
 
 		doc.screenBoxDiv.innerHTML = cal.getBufferString();
+		// flash screen if displayFlag.bufferIsFull==false
 	}
 });

@@ -523,7 +523,15 @@
 			"file": "src/js/calculator.js",
 			"settings":
 			{
-				"buffer_size": 5001,
+				"buffer_size": 373,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/js/calStart.js",
+			"settings":
+			{
+				"buffer_size": 485,
 				"line_ending": "Windows"
 			}
 		},
@@ -736,6 +744,7 @@
 	},
 	"file_history":
 	[
+		"/C/Program Files (x86)/Unity/Editor/Unity.exe.testLog",
 		"/M/_season02/WebCal/src/js/ajaxHelper.js",
 		"/M/_season02/WebCal/src/js/cal.js",
 		"/M/_season02/WebCal/src/js/signal.js",
@@ -862,8 +871,7 @@
 		"/M/_BrowserifyGulp/rebellionRisingMobile/src/js/rooms/Room.js",
 		"/M/_BrowserifyGulp/snakePro/gulpfile.js",
 		"/M/_BrowserifyGulp/rebellionRisingMobile/src/js/actors/ball.js",
-		"/M/_BrowserifyGulp/rebellionRisingMobile/src/package.json",
-		"/M/_BrowserifyGulp/rebellionRisingMobile/src/gulpfile.js"
+		"/M/_BrowserifyGulp/rebellionRisingMobile/src/package.json"
 	],
 	"find":
 	{
@@ -891,6 +899,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"Cal",
 			"isNew",
 			"[^;]\\n",
 			"result",
@@ -1017,8 +1026,7 @@
 			"me",
 			"toggle_range_markers",
 			"console",
-			"range_marker2",
-			"this"
+			"range_marker2"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1139,7 +1147,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -1203,15 +1211,15 @@
 					"file": "src/js/calculator.js",
 					"settings":
 					{
-						"buffer_size": 5001,
+						"buffer_size": 373,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2871,
-								2871
+								339,
+								339
 							]
 						],
 						"settings":
@@ -1221,13 +1229,40 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1934.0,
+						"translation.y": 20.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
+					"file": "src/js/calStart.js",
+					"settings":
+					{
+						"buffer_size": 485,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								348,
+								348
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright - ver Dickson.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
 					"file": "src/js/main.js",
 					"settings":
 					{
@@ -1245,7 +1280,8 @@
 						"settings":
 						{
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright - ver Dickson.tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 180.0,
@@ -1260,7 +1296,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "src/index.html",
 					"settings":
 					{
@@ -1289,7 +1325,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "src/css/style.css",
 					"settings":
 					{
@@ -1347,7 +1383,7 @@
 		"cols":
 		[
 			0.0,
-			0.901442307692,
+			0.7574632501,
 			1.0
 		],
 		"rows":
@@ -1382,6 +1418,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 118.0,
+	"side_bar_width": 220.0,
 	"status_bar_visible": true
 }

@@ -4,6 +4,7 @@
 
 var config = (function() {
 	var config = {
+		DEBUG: true,
 		displayLength: 8,
 		leadCharacter: "",
 		leadCharacterEmpty: "0",
