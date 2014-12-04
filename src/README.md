@@ -20,6 +20,18 @@ In `1+1+1=3`, the states will be  `Start`, `FirstNumber`, `Sign`, `SecondNumber`
 
 `config.js` stores environment parameters for the program, to tweak its behaviour.
 
+#Model (resides in Control...)
+
+`calculator.js` has 3 main fields: `buffer`, `memory` and `answer`
+
+The user will always be editing `buffer`, but not the other two.
+
+When an operator ( + - * / ) is pressed, the `buffer` will be pushed into the `memory`, and the user will then provide another number for `buffer`
+
+When `calculator.js` performs a calcualtion through `Calculator.commit()`, it calls `CalculationModelLocal.getCalculateResult()` for result from server, and provides an asynchronous callback for it.
+
+answer from `CalculationModelLocal` is stored in `answer`. it can be used to perform further calculation by puting it back to `memory` whenever needed.
+
 #(Mock) Delegate
 `calculationModelLocal` works as a mock delegate that represents a server to do the calculation. Doing server-side is one of the requirements of the assignment.
 

@@ -14,6 +14,7 @@
 
 var Calculator = (function() {
 	function Calculator() {
+		// state objects
 		this.states = {
 			"calStateStart": 		new CalStateStart(this),
 			"calStateFirstNumber": 	new CalStateFirstNumber(this),
@@ -24,6 +25,7 @@ var Calculator = (function() {
 			"calStateError": 		new CalStateError(this),
 			"calStateWaiting": 		new CalStateWaiting(this)
 		};
+		// state index
 		this.state = "calStateStart"; // start, firstNum, sign, secondNum,
 		this.answer = 0;
 		this.buffer = 0;
