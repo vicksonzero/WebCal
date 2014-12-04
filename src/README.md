@@ -5,7 +5,7 @@ Webcal uses Model-View-Controller pattern to separate presentation from logic
 
 #View
 
-`index.html` and `style.css contains all the styling details. 
+`index.html` and `style.css` contains all the styling details. 
 
 #Presentation Model
 
@@ -14,7 +14,7 @@ Webcal uses Model-View-Controller pattern to separate presentation from logic
 #Control (and Model...)
 `calculator.js` is written in _State Pattern_, in which it behaves differently according to the state it is in.
 
-`calStates/*` contains different state objects. `calculator.js` will tell one of them to work when a event is triggered in `index.html`. In the event of calculating `1+1=2`, the calculator will go from `Start` state to `FirstNumber`, `Sign`, `SecondNumber`, `Answer` when respective buttons are pressed.
+[`calStates/*`][1] contains different state objects. `calculator.js` will tell one of them to work when a event is triggered in `index.html`. In the event of calculating `1+1=2`, the calculator will go from `Start` state to `FirstNumber`, `Sign`, `SecondNumber`, `Answer` when respective buttons are pressed.
 
 In `1+1+1=3`, the states will be  `Start`, `FirstNumber`, `Sign`, `SecondNumber`, `AnswerSign`,`SecondNumber`, `Answer`
 
@@ -24,6 +24,6 @@ In `1+1+1=3`, the states will be  `Start`, `FirstNumber`, `Sign`, `SecondNumber`
 `calculationModelLocal` works as a mock delegate that represents a server to do the calculation. Doing server-side is one of the requirements of the assignment.
 
 
-see [source][1]
 
-[1]:https://github.com/vicksonzero/WebCal/tree/master/src
+
+[1]:https://github.com/vicksonzero/WebCal/tree/master/src/js/calStates
