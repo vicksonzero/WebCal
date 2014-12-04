@@ -1,47 +1,109 @@
-<html>
-<head>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
 	<title>Web Cal Chui Hin Wah</title>
 	
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/clearfix.css">
+	<link rel="stylesheet" type="text/css" href="css/noselect.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script src="./js/cal.js" type="text/javascript" charset="utf-8" ></script>
+	<script src="http://code.jquery.com/jquery-1.11.0.js"></script>
+	<script src="./js/signals.js" type="text/javascript" charset="utf-8" ></script>
+	<script src="./js/config.js" type="text/javascript" charset="utf-8" ></script>
+	<script src="./js/calculationModelLocal.js" type="text/javascript" charset="utf-8" ></script>
+	
+	<script src="./js/calStates/calStateStart.js" type="text/javascript" charset="utf-8" ></script>
+	<script src="./js/calStates/calStateFirstNumber.js" type="text/javascript" charset="utf-8" ></script>
+	<script src="./js/calStates/calStateSign.js" type="text/javascript" charset="utf-8" ></script>
+	<script src="./js/calStates/calStateSecondNumber.js" type="text/javascript" charset="utf-8" ></script>
+	<script src="./js/calStates/calStateAnswer.js" type="text/javascript" charset="utf-8" ></script>
+	<script src="./js/calStates/calStateAnswerSign.js" type="text/javascript" charset="utf-8" ></script>
+	<script src="./js/calStates/calStateWaiting.js" type="text/javascript" charset="utf-8" ></script>
+	<script src="./js/calStates/calStateError.js" type="text/javascript" charset="utf-8" ></script>
+
+	<script src="./js/calculator.js" type="text/javascript" charset="utf-8" ></script>
+	<script src="./js/main.js" type="text/javascript" charset="utf-8" ></script>
 </head>
 <body>
 
 	<div id="frame">
-		<div id="result">
-			
+		<div id="screen-bar" class="button-container">
+			<div id="screen"></div>
 		</div>
-		<div id="buttons">
+		<div id="buttons" class="clearfix">
+			<!-- events linked in js -->
 			<div id="digits">
 				<div id="digits-normal">
-					<div class="digits-normal-row">
-						<div class="digit"><div class="button">7</div></div>
-						<div class="digit"><div class="button">8</div></div>
-						<div class="digit"><div class="button">9</div></div>
+					<div class="digits-normal-row clearfix">
+						<div class="digit button-container">
+							<div class="button noselect" value="7">7</div>
+						</div>
+						<div class="digit button-container">
+							<div class="button noselect" value="8">8</div>
+						</div>
+						<div class="digit button-container">
+							<div class="button noselect" value="9">9</div>
+						</div>
 					</div>
 					<div class="digits-normal-row clearfix">
-						<div class="digit"><div class="button">4</div></div>
-						<div class="digit"><div class="button">5</div></div>
-						<div class="digit"><div class="button">6</div></div>
+						<div class="digit button-container">
+							<div class="button noselect" value="4">4</div>
+						</div>
+						<div class="digit button-container">
+							<div class="button noselect highlight" value="5">5</div>
+						</div>
+						<div class="digit button-container">
+							<div class="button noselect" value="6">6</div>
+						</div>
 					</div>
-					<div class="digits-normal-row">
-						<div class="digit"><div class="button">1</div></div>
-						<div class="digit"><div class="button">2</div></div>
-						<div class="digit"><div class="button">3</div></div>
+					<div class="digits-normal-row clearfix">
+						<div class="digit button-container">
+							<div class="button noselect" value="1">1</div>
+						</div>
+						<div class="digit button-container">
+							<div class="button noselect" value="2">2</div>
+						</div>
+						<div class="digit button-container">
+							<div class="button noselect" value="3">3</div>
+						</div>
 					</div>
-					<div id="digits-zero">
-						<div class="digit"><div class="button">0</div></div>
+				</div>
+				<div id="digits-bar">
+					<div class="digit button-container button-zero">
+						<div class="button noselect" value="0">0</div>
 					</div>
 				</div>
 			</div>
 			<div id="operations">
-				
+				<div id="column1" class="operations-column">
+					<div class="operator button-container">
+						<div class="button noselect" value="/">/</div>
+					</div>
+					<div class="operator button-container">
+						<div class="button noselect" value="*">*</div>
+					</div>
+					<div class="operator button-container">
+						<div class="button noselect" value="-">-</div>
+					</div>
+					<div class="operator button-container">
+						<div class="button noselect" value="+">+</div>
+					</div>
+				</div>
+				<div id="column2" class="operations-column">
+					<div class="operator button-container">
+						<div class="button noselect" value="AC">AC</div>
+					</div>
+					<div class="operator button-container">
+						<div class="button noselect" value="CE">CE</div>
+					</div>
+					<div class="operator button-container operator-tall">
+						<div class="button noselect" value="=">=</div>
+					</div>
+				</div>
 			</div>
 			
 		</div>
-		<div id="credit"></div>
+		<div id="credit">By Dickson Chui Hin Wah <br />(14915266, hc316, vicksonzero@github)</div>
 	</div>
 
 </body>

@@ -6,26 +6,103 @@
 
 }
 
-#result{
-	background-color: rgb(220, 220, 220);
+
+/* ===== Output ===== */
+#screen-bar{
 	width:400px; height:80px;
 }
+
+#screen{
+	background-color: rgba(255,255,255,0.2);
+	/*background-color: rgb(220, 220, 220);*/
+	width:100%; height:100%;
+	text-align: right;
+	font-size: 64;
+	/*font-size: 24;*/
+	color:white;
+}
+/* ===== Output end ===== */
+
 
 #buttons{
 	width:400px;height:320px;
 
 }
 
-.digit{
 
-	width:80px; height:80px;
-	padding:8px;
+/* ===== Digits ===== */
+
+#digits{
+	width:240px;
 	float:left;
 }
 
-.button{
-	background-color: rgb(255, 191, 0);
+.digit{
+	width:80px; height:80px;
+	float:left;
+}
 
+#digits-bar>.digit{
+	width:100%;
+}
+
+/* ===== Digits end ===== */
+
+
+
+/* ===== Operators ===== */
+
+#operations{
+	width:160px; height:100%;
+	float:left;
+}
+
+.operations-column{
+	width:80px;
+	float:left;
+}
+
+.operator{
+	width:80px; height:80px;
+
+}
+
+.operator-tall{
+	height:160px;
+}
+
+
+
+/* ===== Operators end ===== */
+
+/* ===== Buttons end ===== */
+
+.button-container{
+	padding:3px;
+}
+
+.button{
 	width:100%; height:100%;
+	background-color: #FFBF00;
+	padding:3px;
+	font-size: 32;
+	font-family: Arial,sans-serif;
 	/* numbers center */
+}
+.button.highlight{
+	background-color: #FFA200;
+}
+.button:hover{
+	background-color: rgb(255, 201, 38);
+}
+.button:active{
+	background-color: rgb(196, 147, 0);
+}
+/* ===== Buttons end ===== */
+
+
+#credit{
+	padding:0 3px;
+	color:gray;
+	text-align: right;
 }
