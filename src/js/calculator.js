@@ -63,7 +63,8 @@ var Calculator = (function() {
 
 	};
 	p.getBufferString = function() {
-		// display sign if state = sign
+	};
+	p.getDebugString = function() {
 		// display last calculation if answer mode
 		var str = "";
 		if(config.DEBUG){
@@ -71,16 +72,9 @@ var Calculator = (function() {
 				this.state+" ("+
 				"a: "+this.answer+
 				" m:"+this.memory+this.sign+
-				" b:"+this.buffer+")<br>";
+				" b:"+this.buffer+")";
 		}
-		if(this.state == "calStateAnswer" || this.state == "calStateAnswerSign"){
-			str+=this.answer;
-		}else{
-			str+=this.buffer;
-		}
-		if(this.state == "calStateSign" || this.state == "calStateAnswerSign"){
-			str+=this.sign;
-		}
+		
 		return str;
 	};
 

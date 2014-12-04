@@ -13,13 +13,20 @@
 }
 
 #screen{
+	width:100%; height:100%;
+	padding-left:4px; padding-right: 4px;
 	background-color: rgba(255,255,255,0.2);
 	/*background-color: rgb(220, 220, 220);*/
-	width:100%; height:100%;
-	text-align: right;
-	font-size: 64;
 	/*font-size: 24;*/
 	color:white;
+}
+#bufferPrimary{
+	font-size: 50;
+	text-align: right;
+}
+#bufferSecondary{
+	font-size: 20;
+	text-align: left;
 }
 /* ===== Output end ===== */
 

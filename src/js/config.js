@@ -14,6 +14,7 @@ var config = (function() {
 			MULTIPLY: 2,
 			DIVIDE: 3
 		},
+		greetings:"WebCal v1.1",
 		signToEnum:signToEnum
 	};
 

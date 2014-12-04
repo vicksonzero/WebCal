@@ -28,7 +28,7 @@ The user will always be editing `buffer`, but not the other two.
 
 When an operator ( + - * / ) is pressed, the `buffer` will be pushed into the `memory`, and the user will then provide another number for `buffer`
 
-When `calculator.js` performs a calcualtion through `Calculator.commit()`, it calls `CalculationModelLocal.getCalculateResult()` for result from server, and provides an asynchronous callback for it.
+When `calculator.js` performs a calculation through `Calculator.commit()`, it calls `CalculationModelLocal.getCalculateResult()` for result from server, and provides an asynchronous callback for it.
 
 answer from `CalculationModelLocal` is stored in `answer`. it can be used to perform further calculation by puting it back to `memory` whenever needed.
 
