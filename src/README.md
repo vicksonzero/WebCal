@@ -1,5 +1,8 @@
 #WebCal Source
 
+Webcal uses Model-View-Controller pattern to separate presentation from logic
+
+
 #View
 
 `index.html` and `style.css contains all the styling details. 
