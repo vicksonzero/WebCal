@@ -22,7 +22,7 @@ var config = (function() {
 			DIVIDE: 3
 		},
 		messages:{
-			"GREETINGS":"WebCal v1.2",
+			"GREETINGS":"WebCal v1.3",
 			"D0": "DIV-0",
 			"ROUNDED": "Rounded",
 			"TOOLONG": "TOO LONG"
