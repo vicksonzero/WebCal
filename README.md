@@ -20,6 +20,9 @@ see [source][1]
 
 #Versions
 
+##v1.3
+- fixed some bugs
+
 ##v1.2
 - Added real server support. see [`server_src/index.php`][2] and [`js/calculationModelAjax.js`][3].
 - Added `addressBar.js`. _WebCal_ can now be customized through address bar
