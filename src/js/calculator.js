@@ -120,7 +120,7 @@ var Calculator = (function() {
 		var _this = this;
 		calculationModel.getCalculateResult({
 			a: 		this.memory, 
-			sign: 	config.signToEnum(this.sign), 
+			sign: 	this.sign, 
 			b: 		this.buffer,
 			callback:function(result){
 				console.log(result);

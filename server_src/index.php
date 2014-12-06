@@ -1,7 +1,8 @@
 <?php
-header('Access-Control-Allow-Origin: *');
+//header('Access-Control-Allow-Origin: *');
 //header('Access-Control-Allow-Methods: GET, POST');  
-if( $_POST["sign"]){
+var_dump($_POST); 
+if( !empty($_POST["sign"])) {
 	$config=array(
 		"D0"=>"DIV-0",
 		"TOOLONG"=>"TOO LONG",
@@ -16,7 +17,8 @@ if( $_POST["sign"]){
 	$a = intval($_POST["a"]);
 	$b = intval($_POST["b"]);
 	$sign = urldecode($_POST["sign"]);
-	switch ($_POST["sign"]) {
+	//$sign = $_POST["sign"];
+	switch ($sign) {
 	case "+":
 		$result["result"] = $a + $b;
 		break;

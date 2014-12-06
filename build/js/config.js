@@ -4,7 +4,7 @@
 
 var config = (function() {
 	var config = {
-		DEBUG: false,
+		DEBUG: true,
 		displayLength: 8,
 		leadCharacter: "",
 		leadCharacterEmpty: "0",

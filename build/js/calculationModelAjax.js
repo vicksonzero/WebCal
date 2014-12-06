@@ -22,13 +22,13 @@ var calculationModel = (function() {
 				sign:args.sign
 			}, 
 			function unpacker(data, status){
+				var jsonData = JSON.parse(JSON.parse);
 				args.callback({
-					result:data.result,
-					resultExponent:data.resultExponent,
-					msg:data.msg
+					result:jsonData.result,
+					resultExponent:jsonData.resultExponent,
+					msg:jsonData.msg
 				});//, resultExponent);
-			},
-			"json"
+			}
 		);
 
 		//console.log(result);
