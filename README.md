@@ -18,4 +18,22 @@ Download the folder `build` and open `index.html`
 
 see [source][1]
 
+#Versions
+
+##v1.2
+- Added real server support. see [`server_src/index.php`][2] and [`js/calculationModelAjax.js`][3].
+- Added `addressBar.js`. _WebCal_ can now be customized through address bar
+- Used signal for _model_ and _view_ communication
+
+##v1.1
+- Used _State Pattern_ !
+- Have 2 line output
+- Can use Mock Delegate for calculation
+- Handles Errors gracefully
+
+
+
+
 [1]:https://github.com/vicksonzero/WebCal/tree/master/src
+[2]:https://github.com/vicksonzero/WebCal/tree/master/server_src/index.php
+[3]:https://github.com/vicksonzero/WebCal/tree/master/src/js/calculationModelAjax.js

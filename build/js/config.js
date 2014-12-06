@@ -1,11 +1,17 @@
 // config.js
 
 // data object for configs
+// 
+// var AddressBar = require("addressBar");
 
 var config = (function() {
 	var config = {
+		addressBar: new AddressBar(location.search),
 		DEBUG: false,
-		model:"local", // "local", "php"
+
+		model:"php", // "local", "php"
+		serverURL:"http://raptor.kent.ac.uk/~hc316/webcalServer/index.php",
+
 		displayLength: 8,
 		leadCharacter: "",
 		leadCharacterEmpty: "0",
@@ -21,9 +27,15 @@ var config = (function() {
 			"ROUNDED": "Rounded",
 			"TOOLONG": "TOO LONG"
 		},
-		serverURL:"http://raptor.kent.ac.uk/~hc316/webcalServer/index.php",
 		signToEnum:signToEnum
 	};
+	config.DEBUG = config.addressBar.hasValueOrNot("debug",true,config.DEBUG);
+
+	config.model = config.addressBar.getValue("model",config.model,false);
+	config.model = config.addressBar.hasValueOrNot("local","local",config.model);
+	config.model = config.addressBar.hasValueOrNot("php","php",config.model);
+
+	config.displayLength=parseInt(config.addressBar.getValue("displayLength",config.displayLength));
 
 	return config;
 

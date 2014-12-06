@@ -71,13 +71,12 @@ var Calculator = (function() {
 		this.states[this.state].onPressEqual();
 
 	};
-	p.getBufferString = function() {
-	};
 	p.getDebugString = function() {
 		// display last calculation if answer mode
 		var str = "";
 		if(config.DEBUG){
 			str+= 
+				this.model.name+" "+
 				this.state+" ("+
 				"a: "+this.answer+
 				" m:"+this.memory+this.sign+

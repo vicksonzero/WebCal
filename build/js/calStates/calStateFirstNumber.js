@@ -36,8 +36,13 @@ var CalStateFirstNumber = (function() {
 		this.onPressAC();
 	};
 	p.onPressEqual = function(){
-		this.parent.answer = this.parent.buffer;
-		this.parent.state = "calStateAnswer";
+		// special operation: a+0=a
+		this.parent.memory = this.parent.buffer;
+		this.parent.clearBuffer();
+		this.parent.sign = "+";
+		this.parent.nextState = "calStateAnswer";
+		this.parent.state = "calStateWaiting";
+		this.parent.commit(this.parent.sign);
 	};
 
 
