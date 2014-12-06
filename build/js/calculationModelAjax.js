@@ -6,7 +6,7 @@
 // var config = require("config");
 // var $ = require("jquery");
 
-var calculationModel = (function() {
+var calculationModelAjax = (function() {
 
 	var calculationModel = {};
 

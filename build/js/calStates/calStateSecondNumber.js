@@ -23,7 +23,7 @@ var CalStateSecondNumber = (function() {
 	};
 	p.onPressOp = function(op){
 		// calculates answer and directly jumps to answer
-		this.parent.commit();
+		this.parent.commit(this.parent.sign);
 		this.parent.nextState = "calStateAnswerSign";
 		this.parent.sign = op;
 		this.parent.state = "calStateWaiting";
@@ -40,7 +40,7 @@ var CalStateSecondNumber = (function() {
 	p.onPressEqual = function(){
 		this.parent.nextState = "calStateAnswer";
 		this.parent.state = "calStateWaiting";
-		this.parent.commit();
+		this.parent.commit(this.parent.sign);
 	};
 
 

@@ -38,7 +38,7 @@ var CalStateAnswer = (function() {
 		this.parent.memory = this.parent.answer;
 		this.parent.nextState = "calStateAnswer";
 		this.parent.state = "calStateWaiting";
-		this.parent.commit();
+		this.parent.commit(this.parent.sign);
 		this.parent.displayFlag.redoOperation = true;
 	};
 
