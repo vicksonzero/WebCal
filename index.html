@@ -2,6 +2,27 @@
   <head>
     <meta charset="utf-8">
 	<title>Web Cal Chui Hin Wah</title>
+	<script src="./addressBar.js" type="text/javascript" charset="utf-8" ></script>
+	<script type="text/javascript" charset="utf-8" >
+		function load(){
+			var str = "build/index.html?";
+			var addressBar = new AddressBar(location.search);
+			var sawModeParam = false;
+			Object.getOwnPropertyNames(addressBar.params).forEach(function(key) {
+				if (key != "") {
+					if (key == "model" || key == "local" || key == "php") sawModeParam = true;
+					var values = addressBar.params[key];
+					values.forEach(function(value) {
+						str += key + "=" + value + "&"
+					});
+				}
+			});
+			if(!sawModeParam)str+="local";
+
+			document.getElementById("frame").src = str;
+
+		}
+	</script>
 	
 	<style type="text/css">
 	/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
@@ -12,9 +33,9 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 		}
 	</style>
 </head>
-<body>
+<body onload="load()">
 
-	<iframe src="build/index.html?local"></iframe>
+	<iframe id="frame"></iframe>
 
 </body>
 </html>

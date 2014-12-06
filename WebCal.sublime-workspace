@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"has",
+				"hasValueOrNot"
+			],
+			[
+				"add",
+				"addressbar"
+			],
+			[
+				"und",
+				"undefined"
+			],
+			[
+				"mod",
+				"modelUpdatedSignal"
+			],
+			[
+				"Sign",
+				"Signal"
+			],
+			[
+				"signal",
+				"signals"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
 				"TOO",
 				"TOOLONG"
 			],
@@ -160,10 +188,6 @@
 				"background-color"
 			],
 			[
-				"add",
-				"addClass"
-			],
-			[
 				"ui_",
 				"ui_over_highlight"
 			],
@@ -210,10 +234,6 @@
 			[
 				"go",
 				"gotoPage"
-			],
-			[
-				"re",
-				"require"
 			],
 			[
 				"a",
@@ -294,10 +314,6 @@
 			[
 				"canS",
 				"canStartList"
-			],
-			[
-				"has",
-				"hasOwnProperty"
 			],
 			[
 				"make",
@@ -498,162 +514,34 @@
 			[
 				"typ",
 				"typhoonID"
-			],
-			[
-				"prot",
-				"prototype"
-			],
-			[
-				"fu",
-				"function"
-			],
-			[
-				"pro",
-				"prototype"
-			],
-			[
-				"near",
-				"nearEnemy"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "src/js/calStates/calStateStart.js",
-			"settings":
-			{
-				"buffer_size": 600,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/js/calStates/calStateFirstNumber.js",
-			"settings":
-			{
-				"buffer_size": 946,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/js/calStates/calStateSign.js",
-			"settings":
-			{
-				"buffer_size": 1219,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/js/calStates/calStateSecondNumber.js",
-			"settings":
-			{
-				"buffer_size": 1091,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/js/calStates/calStateAnswer.js",
-			"settings":
-			{
-				"buffer_size": 1058,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/js/calStates/calStateAnswerSign.js",
-			"settings":
-			{
-				"buffer_size": 1225,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/js/calStates/calStateError.js",
-			"settings":
-			{
-				"buffer_size": 576,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/js/calStates/calStateWaiting.js",
-			"settings":
-			{
-				"buffer_size": 555,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/js/calculationModelLocal.js",
-			"settings":
-			{
-				"buffer_size": 1713,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/js/config.js",
-			"settings":
-			{
-				"buffer_size": 809,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/js/calculator.js",
-			"settings":
-			{
-				"buffer_size": 3710,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/js/main.js",
-			"settings":
-			{
-				"buffer_size": 3876,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/index.html",
-			"settings":
-			{
-				"buffer_size": 4371,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/css/style.css",
-			"settings":
-			{
-				"buffer_size": 1434,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/README.md",
-			"settings":
-			{
-				"buffer_size": 1943,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/js/addressBar.js",
-			"settings":
-			{
-				"buffer_size": 494,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 334.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"refresh",
+				"Side Bar: Refresh"
+			],
+			[
+				"ind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
 			[
 				"mark",
 				"Set Syntax: MultiMarkdown"
@@ -665,10 +553,6 @@
 			[
 				"wrap",
 				"Word Wrap: Toggle"
-			],
-			[
-				"inde",
-				"Indentation: Reindent Lines"
 			],
 			[
 				"css",
@@ -767,10 +651,6 @@
 				"Package Control: Install Package"
 			],
 			[
-				"php",
-				"Set Syntax: PHP"
-			],
-			[
 				"for",
 				"Format: Javascript"
 			],
@@ -815,7 +695,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 512.0
+		"width": 416.0
 	},
 	"console":
 	{
@@ -832,13 +712,30 @@
 	},
 	"file_history":
 	[
-		"/M/_season02/WebCal/src/js/main.js",
-		"/M/_season02/WebCal/src/README.md",
+		"/M/_season02/WebCal/src/js/addressBar.js",
 		"/M/_season02/WebCal/index.html",
-		"/M/_season02/WebCal/src/css/reset.css",
+		"/M/_season02/WebCal/README.md",
+		"/M/_season02/WebCal/src/js/calculator.js",
+		"/M/_season02/WebCal/src/js/calculationModelAjax.js",
+		"/M/_season02/WebCal/src/js/config.js",
+		"/M/_season02/WebCal/src/README.md",
+		"/M/_season02/WebCal/src/js/main.js",
 		"/M/_season02/WebCal/src/js/calStates/calStateSign.js",
-		"/M/_season02/WebCal/src/js/calStates/calStateAnswerSign.js",
+		"/M/_season02/WebCal/src/js/calStates/calStateError.js",
+		"/M/_season02/WebCal/src/index.html",
+		"/M/_season02/WebCal/src/js/calStates/calStateFirstNumber.js",
+		"/M/_season02/WebCal/src/js/calculationModelLocal.js",
+		"/M/_season02/WebCal/src/js/calStates/calStateSecondNumber.js",
 		"/M/_season02/WebCal/src/js/calStates/calStateAnswer.js",
+		"/M/_season02/WebCal/src/js/calStates/calStateAnswerSign.js",
+		"/M/_season02/WebCal/build/js/config.js",
+		"/M/_season02/WebCal/src/js/signals.js",
+		"/M/_season02/WebCal/src/css/style.css",
+		"/M/_season02/WebCal/server_src/index.php",
+		"/M/_season02/WebCal/src/js/calStates/calStateStart.js",
+		"/M/_season02/WebCal/src/js/calStates/calStateWaiting.js",
+		"/M/_season02/WebCal/build/index.html",
+		"/M/_season02/WebCal/src/css/reset.css",
 		"/M/_season02/WebCal/src/js/calStateStart.js",
 		"/M/_season02/WebCal/src/js/calStart.js",
 		"/C/Program Files (x86)/Unity/Editor/Unity.exe.testLog",
@@ -942,24 +839,7 @@
 		"/M/_season02/labCoat/css/home.css",
 		"/M/_season02/labCoat/css/nav.css",
 		"/M/_season02/labCoat/css/news.css",
-		"/M/_season02/labCoat/css/about.css",
-		"/M/_season02/labCoat/css/focus.css",
-		"/M/_season02/labCoat/css/contact.css",
-		"/M/_season02/labCoat/gulpfile.js",
-		"/M/_season02/vicksonzero.github.io/index.html",
-		"/M/_season02/labCoat/package.json",
-		"/M/_season02/DFX web/web/css/about.css",
-		"/M/_season02/DFX web/web/css/focus.css",
-		"/M/_season02/DFX web/web/css/contact.css",
-		"/M/_season02/DFX web/web/css/news.css",
-		"/M/_season02/DFX web/web/css/home.css",
-		"/M/_season02/DFX web/web/js/scroll.js",
-		"/M/_season02/DFX web/web/css/people.css",
-		"/M/_season02/DFX web/web/gulpfile.js",
-		"/M/_BrowserifyGulp/snakePro/css/main.css",
-		"/M/_BrowserifyGulp/snakePro/js/bundle.js",
-		"/M/_BrowserifyGulp/snakePro/gulp browserify reload.bat",
-		"/M/_BrowserifyGulp/rebellionRisingMobile/src/index.html"
+		"/M/_season02/labCoat/css/about.css"
 	],
 	"find":
 	{
@@ -987,6 +867,26 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"`(.*?)`",
+			"`.*?`",
+			"includeUndefined",
+			"config",
+			"Mod",
+			"mod",
+			"jax",
+			"this.parent.commit()",
+			"\\$config->(.*?)([ ;])",
+			"$result->",
+			"([^\"])]",
+			"$result->msg",
+			"$result->result",
+			"echo result",
+			"args.(.*?)[;]",
+			"b([ ;])",
+			"a([ ;])",
+			"(\\t+)(.*?):(.*?\\n)",
+			"(.*?):(.*?\\n)",
+			"{",
 			"addressBar",
 			"cal.buffer",
 			"isWaiting",
@@ -1094,34 +994,27 @@
 			"default_obj",
 			"for",
 			"set",
-			"Output",
-			"IO",
-			"out",
-			"]);",
-			"getHPLines",
-			"\"+\"\";\n",
-			"getName",
-			"Out",
-			"getHP",
-			"run",
-			"game",
-			"Slime",
-			"windowresize",
-			"(Obj-.)\\s(.*?)\\s(By.*)",
-			"1024",
-			"dire",
-			"full",
-			"768",
-			"		$",
-			"config",
-			"disable"
+			"Output"
 		],
 		"highlight": true,
-		"in_selection": false,
+		"in_selection": true,
 		"preserve_case": false,
 		"regex": true,
 		"replace_history":
 		[
+			"\\n- $1",
+			"this.parent.commit(this.parent.sign)",
+			"$config[\"$1\"]$2",
+			"$1\"]",
+			"$result[\"msg\"]",
+			"$result[\"result]",
+			"echo json_encode($result)",
+			"$_GET[\"$1\"]$2",
+			"$b$1",
+			"$a$1",
+			"$1\"$2\"=>$3",
+			"\"$1\"=>$2",
+			"array(",
 			"\"$1\":",
 			"<script src=\"./js/$1.js\" type=\"text/javascript\" charset=\"utf-8\" ></script>",
 			"\"$1\":$1",
@@ -1239,463 +1132,13 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "src/js/calStates/calStateStart.js",
-					"settings":
-					{
-						"buffer_size": 600,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								384,
-								384
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright - ver Dickson.tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 80.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/js/calStates/calStateFirstNumber.js",
-					"settings":
-					{
-						"buffer_size": 946,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								452,
-								452
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright - ver Dickson.tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 120.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/js/calStates/calStateSign.js",
-					"settings":
-					{
-						"buffer_size": 1219,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1075,
-								1160
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright - ver Dickson.tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 40.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/js/calStates/calStateSecondNumber.js",
-					"settings":
-					{
-						"buffer_size": 1091,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1024,
-								1024
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright - ver Dickson.tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 40.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "src/js/calStates/calStateAnswer.js",
-					"settings":
-					{
-						"buffer_size": 1058,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								949,
-								949
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright - ver Dickson.tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "src/js/calStates/calStateAnswerSign.js",
-					"settings":
-					{
-						"buffer_size": 1225,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1075,
-								1160
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright - ver Dickson.tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 160.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "src/js/calStates/calStateError.js",
-					"settings":
-					{
-						"buffer_size": 576,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								360,
-								360
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright - ver Dickson.tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 140.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "src/js/calStates/calStateWaiting.js",
-					"settings":
-					{
-						"buffer_size": 555,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								205,
-								205
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright - ver Dickson.tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 100.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "src/js/calculationModelLocal.js",
-					"settings":
-					{
-						"buffer_size": 1713,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								957,
-								957
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright - ver Dickson.tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 549.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		},
 		{
-			"selected": 6,
 			"sheets":
 			[
-				{
-					"buffer": 9,
-					"file": "src/js/config.js",
-					"settings":
-					{
-						"buffer_size": 809,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								387,
-								387
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright - ver Dickson.tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "src/js/calculator.js",
-					"settings":
-					{
-						"buffer_size": 3710,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2879,
-								2879
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright - ver Dickson.tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2358.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "src/js/main.js",
-					"settings":
-					{
-						"buffer_size": 3876,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								27,
-								27
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright - ver Dickson.tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "src/index.html",
-					"settings":
-					{
-						"buffer_size": 4371,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1764,
-								1764
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright - ver Dickson.tmTheme",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false,
-							"word_wrap": false
-						},
-						"translation.x": 9.0,
-						"translation.y": 421.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "src/css/style.css",
-					"settings":
-					{
-						"buffer_size": 1434,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								237,
-								237
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright - ver Dickson.tmTheme",
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 171.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 14,
-					"file": "src/README.md",
-					"settings":
-					{
-						"buffer_size": 1943,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1374,
-								1374
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright - ver Dickson.tmTheme",
-							"syntax": "Packages/Markdown/MultiMarkdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 289.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 15,
-					"file": "src/js/addressBar.js",
-					"settings":
-					{
-						"buffer_size": 494,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								142,
-								142
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright - ver Dickson.tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1727,7 +1170,7 @@
 		"cols":
 		[
 			0.0,
-			0.257040725255,
+			0.953139643861,
 			1.0
 		],
 		"rows":
@@ -1762,6 +1205,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 197.0,
+	"side_bar_width": 251.0,
 	"status_bar_visible": true
 }
