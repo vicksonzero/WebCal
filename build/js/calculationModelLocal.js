@@ -63,7 +63,7 @@ var calculationModelLocal = (function() {
 	}*/
 	function checkArgumentFormat(args) {
 		if (!isInt(args.a)) return false;
-		if (!isInt(args.sign)) return false;
+		//if (!isInt(args.sign)) return false;
 		if (!isInt(args.b)) return false;
 		if (!isFunction(args.callback)) return false;
 		return true; // TODO
