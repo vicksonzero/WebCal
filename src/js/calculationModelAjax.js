@@ -28,7 +28,7 @@ var calculationModel = (function() {
 					msg:data.msg
 				});//, resultExponent);
 			},
-			"json"
+			"jsonp"
 		);
 
 		//console.log(result);
