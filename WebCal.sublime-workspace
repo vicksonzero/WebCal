@@ -638,6 +638,14 @@
 				"buffer_size": 1943,
 				"line_ending": "Windows"
 			}
+		},
+		{
+			"file": "src/js/addressBar.js",
+			"settings":
+			{
+				"buffer_size": 494,
+				"line_ending": "Windows"
+			}
 		}
 	],
 	"build_system": "",
@@ -979,6 +987,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"addressBar",
 			"cal.buffer",
 			"isWaiting",
 			"span",
@@ -1105,8 +1114,7 @@
 			"768",
 			"		$",
 			"config",
-			"disable",
-			"reverse"
+			"disable"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1489,7 +1497,7 @@
 			]
 		},
 		{
-			"selected": 2,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -1532,8 +1540,8 @@
 						"selection":
 						[
 							[
-								3453,
-								3466
+								2879,
+								2879
 							]
 						],
 						"settings":
@@ -1560,8 +1568,8 @@
 						"selection":
 						[
 							[
-								2854,
-								2854
+								27,
+								27
 							]
 						],
 						"settings":
@@ -1571,7 +1579,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1894.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1659,6 +1667,34 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "src/js/addressBar.js",
+					"settings":
+					{
+						"buffer_size": 494,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								142,
+								142
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright - ver Dickson.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
 				}
 			]
 		}
@@ -1726,6 +1762,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 71.0,
+	"side_bar_width": 197.0,
 	"status_bar_visible": true
 }
