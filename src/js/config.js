@@ -20,7 +20,7 @@ var config = (function() {
 			"ROUNDED": "Rounded",
 			"TOOLONG": "TOO LONG"
 		},
-		serverURL:"http://raptor.kent.ac.uk/~hc316/webcal",
+		serverURL:"http://raptor.kent.ac.uk/~hc316/webcalServer",
 		signToEnum:signToEnum
 	};
 
