@@ -7,7 +7,7 @@
 
 var calculationModelLocal = (function() {
 
-	var calculationModel = {};
+	var calculationModel = {name:"local"};
 
 
 	calculationModel.getCalculateResult = function getCalculateResult(args) {

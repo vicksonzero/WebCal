@@ -8,7 +8,7 @@
 
 var calculationModelAjax = (function() {
 
-	var calculationModel = {};
+	var calculationModel = {name:"php"};
 
 
 	calculationModel.getCalculateResult = function getCalculateResult(args) {

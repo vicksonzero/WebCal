@@ -122,6 +122,7 @@ var Calculator = (function() {
 	p.commit = function(op){
 		var _this = this;
 		if(op===undefined) op = this.sign;
+		console.log(this.model.name);
 		this.model.getCalculateResult({
 			a: 		this.memory, 
 			sign: 	op, 

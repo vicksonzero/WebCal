@@ -34,8 +34,8 @@ var CalStateSecondNumber = (function() {
 	};
 	p.onPressCE = function(){
 		this.parent.clearBuffer();
-		this.parent.buffer = this.parent.memory;
-		this.parent.state = "calStateSign";
+		// this.parent.buffer = this.parent.memory;
+		// this.parent.state = "calStateSign";
 	};
 	p.onPressEqual = function(){
 		this.parent.nextState = "calStateAnswer";

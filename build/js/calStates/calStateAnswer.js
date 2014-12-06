@@ -31,7 +31,7 @@ var CalStateAnswer = (function() {
 		this.parent.state = "calStateStart";
 	};
 	p.onPressCE = function(){
-		return;
+		this.onPressAC();
 	};
 	p.onPressEqual = function(){
 		// redo last operation
