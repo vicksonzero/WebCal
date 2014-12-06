@@ -31,6 +31,9 @@ $(function() {
 	// Region: bind events
 
 	calculator = new Calculator();
+	calculator.modelUpdatedSignal.add(function(){
+		updateScreen(doc, calculator);
+	});
 	updateScreen(doc, calculator);
 
 
@@ -86,7 +89,7 @@ $(function() {
 		// primary buffer: buffer and current sign
 		var str = "";
 		if (cal.state == "calStateAnswer" || cal.state == "calStateAnswerSign") {
-			str = cal.answer;
+			str = ""+cal.answer;
 		} else {
 			str = ""+ cal.buffer;
 		}
@@ -94,7 +97,7 @@ $(function() {
 			str += cal.sign;
 		}
 		if (cal.state == "calStateError") {
-			str = "Error: "+cal.errorMsg;
+			str = "E:"+cal.errorMsg;
 		}
 		if(str=="") str="&nbsp;";
 		doc.screenPrimaryDiv.innerHTML = str;
@@ -133,7 +136,7 @@ $(function() {
 				str += "Waiting for server...";
 				break;
 			default:
-				str += "Unexpected state. did you miss a break;?";
+				str += "Unexpected state. check your switch()?";
 			}
 		}
 		if(str=="") str="&nbsp;";

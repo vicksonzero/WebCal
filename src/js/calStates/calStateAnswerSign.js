@@ -41,7 +41,7 @@ var CalStateAnswerSign = (function() {
 		this.parent.buffer = this.parent.answer;
 		this.parent.nextState = "calStateAnswer";
 		this.parent.state = "calStateWaiting";
-		this.parent.commit();
+		this.parent.commit(this.parent.sign);
 	};
 
 

@@ -3,9 +3,9 @@
 // binds events
 
 // pretending CommonJS
-// var config = require("config");
+// var $ = require("config");
 
-var calculationModelLocal = (function() {
+var calculationModel = (function() {
 
 	var calculationModel = {};
 

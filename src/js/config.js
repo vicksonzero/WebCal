@@ -5,6 +5,7 @@
 var config = (function() {
 	var config = {
 		DEBUG: false,
+		model:"local", // "local", "php"
 		displayLength: 8,
 		leadCharacter: "",
 		leadCharacterEmpty: "0",

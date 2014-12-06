@@ -23,10 +23,10 @@ var CalStateSecondNumber = (function() {
 	};
 	p.onPressOp = function(op){
 		// calculates answer and directly jumps to answer
-		this.onPressEqual();
+		this.parent.commit();
+		this.parent.nextState = "calStateAnswerSign";
 		this.parent.sign = op;
-		this.parent.state = "calStateAnswerSign";
-
+		this.parent.state = "calStateWaiting";
 	};
 	p.onPressAC = function(){
 		this.parent.clearAll();
