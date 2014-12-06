@@ -20,16 +20,16 @@ var calculationModel = (function() {
 		var a = args.a;
 		var b = args.b;
 		switch (args.sign) {
-			case config.enumSigns.PLUS:
+			case "+":
 				result.result = a + b;
 				break;
-			case config.enumSigns.MINUS:
+			case "-":
 				result.result = a - b;
 				break;
-			case config.enumSigns.MULTIPLY:
+			case "*":
 				result.result = a * b;
 				break;
-			case config.enumSigns.DIVIDE:
+			case "/":
 				if(b===0){
 					result.msg = config.messages.D0;
 					args.callback(result);

@@ -4,7 +4,7 @@
 
 var config = (function() {
 	var config = {
-		DEBUG: true,
+		DEBUG: false,
 		displayLength: 8,
 		leadCharacter: "",
 		leadCharacterEmpty: "0",
@@ -20,7 +20,7 @@ var config = (function() {
 			"ROUNDED": "Rounded",
 			"TOOLONG": "TOO LONG"
 		},
-		serverURL:"http://raptor.kent.ac.uk/~hc316/webcalServer",
+		serverURL:"http://raptor.kent.ac.uk/~hc316/webcalServer/index.php",
 		signToEnum:signToEnum
 	};
 

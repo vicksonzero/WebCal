@@ -13,16 +13,17 @@ var calculationModel = (function() {
 
 	calculationModel.getCalculateResult = function getCalculateResult(args) {
 		if (!checkArgumentFormat(args)) return false;
-		console.log(encodeURI(args.sign));
-		$.post(
-			config.serverURL,
-			{
+
+		$.ajax({
+			type: "POST",
+			url: config.serverURL,
+			data: {
 				a:args.a,
 				b:args.b,
 				sign:encodeURI(args.sign)
-			}, 
-			function unpacker(data, status){
-				console.log(data);
+			},
+			success: function unpacker(data, status){
+				console.log("server returned: " + data);
 				var jsonData = JSON.parse(data);
 				args.callback({
 					result:jsonData.result,
@@ -30,7 +31,7 @@ var calculationModel = (function() {
 					msg:jsonData.msg
 				});//, resultExponent);
 			}
-		);
+		});
 
 		//console.log(result);
 		

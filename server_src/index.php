@@ -1,7 +1,7 @@
 <?php
 //header('Access-Control-Allow-Origin: *');
 //header('Access-Control-Allow-Methods: GET, POST');  
-var_dump($_POST); 
+//var_dump($_POST); 
 if( !empty($_POST["sign"])) {
 	$config=array(
 		"D0"=>"DIV-0",
@@ -16,8 +16,9 @@ if( !empty($_POST["sign"])) {
 	);
 	$a = intval($_POST["a"]);
 	$b = intval($_POST["b"]);
-	$sign = urldecode($_POST["sign"]);
-	//$sign = $_POST["sign"];
+	//$sign = urldecode($_POST["sign"]);
+	$sign = $_POST["sign"];
+	//var_dump($sign);
 	switch ($sign) {
 	case "+":
 		$result["result"] = $a + $b;
@@ -42,7 +43,7 @@ if( !empty($_POST["sign"])) {
 	}
 
 	$roundedResult = floor($result["result"]);
-	if( strlen(  (string)$result["result"]  ) > $config["displayLength"] ){
+	if( strlen(  (string)$roundedResult  ) > $config["displayLength"] ){
 		$result["msg"] = $config["TOOLONG"];
 
 		echo json_encode($result);

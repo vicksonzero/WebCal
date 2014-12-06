@@ -37,6 +37,7 @@ var Calculator = (function() {
 			redoOperation:false,
 			answerRounded:false
 		};
+		this.modelUpdatedSignal = new signals.Signal();
 		this.errorMsg = "";
 		this.nextState = "";
 	}
@@ -116,14 +117,14 @@ var Calculator = (function() {
 		this.buffer = this.buffer*10 + digit;
 		this.bufferLength++;
 	};
-	p.commit = function(){
+	p.commit = function(op){
 		var _this = this;
+		if(op===undefined) op = this.sign;
 		calculationModel.getCalculateResult({
 			a: 		this.memory, 
-			sign: 	this.sign, 
+			sign: 	op, 
 			b: 		this.buffer,
 			callback:function(result){
-				console.log(result);
 				_commitResultHandler.call(_this,result);
 			}
 		});
@@ -149,6 +150,7 @@ var Calculator = (function() {
 			this.answer = result.result;
 			this.state = this.nextState;
 		}
+		this.modelUpdatedSignal.dispatch();
 	};
 	return Calculator;
 
