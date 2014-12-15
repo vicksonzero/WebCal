@@ -5,17 +5,17 @@
 // pretending CommonJS
 // var config = require("config");
 
-var calculationModelLocal = (function() {
+var calculationDelegateLocal = (function() {
 
-	var calculationModel = {name:"local"};
+	var calculationDelegate = {name:"local"};
 
 
-	calculationModel.getCalculateResult = function getCalculateResult(args) {
+	calculationDelegate.getCalculateResult = function getCalculateResult(args) {
 		if (!checkArgumentFormat(args)) return false;
 		var result = {
+			msg:"",
 			result:0,
-			resultExponent:0,
-			msg:""
+			resultExponent:0
 		};
 		var a = args.a;
 		var b = args.b;
@@ -78,6 +78,6 @@ var calculationModelLocal = (function() {
 		return functionToCheck && getType.toString.call(functionToCheck) === '[object Function]';
 	}
 
-	return calculationModel;
+	return calculationDelegate;
 
 })();

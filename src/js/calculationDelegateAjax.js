@@ -6,12 +6,12 @@
 // var config = require("config");
 // var $ = require("jquery");
 
-var calculationModelAjax = (function() {
+var calculationDelegateAjax = (function() {
 
-	var calculationModel = {name:"php"};
+	var calculationDelegate = {name:"php"};
 
 
-	calculationModel.getCalculateResult = function getCalculateResult(args) {
+	calculationDelegate.getCalculateResult = function getCalculateResult(args) {
 		if (!checkArgumentFormat(args)) return false;
 
 		$.ajax({
@@ -24,11 +24,10 @@ var calculationModelAjax = (function() {
 			},
 			success: function unpacker(data, status){
 				console.log("server returned: " + data);
-				var jsonData = JSON.parse(data);
+				var jsonObject = JSON.parse(data);
 				args.callback({
-					result:jsonData.result,
-					resultExponent:jsonData.resultExponent,
-					msg:jsonData.msg
+					msg:jsonObject.msg,
+					result:jsonObject.result
 				});//, resultExponent);
 			}
 		});
@@ -49,7 +48,7 @@ var calculationModelAjax = (function() {
 		//if (!isInt(args.sign)) return false;
 		if (!isInt(args.b)) return false;
 		if (!isFunction(args.callback)) return false;
-		return true; // TODO
+		return true; 
 	}
 
 	function isInt(n) {
@@ -63,6 +62,6 @@ var calculationModelAjax = (function() {
 
 
 
-	return calculationModel;
+	return calculationDelegate;
 
 })();

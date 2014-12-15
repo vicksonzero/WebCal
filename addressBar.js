@@ -1,33 +1,58 @@
 // addressBar.js
 
 // breaks address into get parameters
+// use public methods to query the parameters, or look at the parameters directly
 // 
-// function AddressBar(getStirngs)
+// constructor:
+//     AddressBar(getStrings)
+//     
 // public methods:
 //     hasValueOrNot : function(key, trueVal, falseVal);
+//         returns trueVal if the key is present in the address bar, 
+//         even if it contains falsy value
+//         else return falseVal
+//         
 //     getValue      : function(key, defaultVal, allowUndefined);
+//         returns the first occuring value of key if key exists, and has a value
+//         else return defaultVal
+//         if allowUndefined is true, and key is present with no value
+//         it returns "undefined" instead of defaultVal
+//         
 //     getValues     : function(key, defaultVal);
+//         same as getValue without the s, but returns an array of values if
+//         you expect there would be more than 1 value in the address bar.
+//         
 // public field:
-//     p.params      : {"key":[value],"key2":[value1,value2,value1]};
+//     params        : {"key":[value],"key2":[value1,value2,value1]};
+//     
+
 
 // usage:
 // in the webpage:
 // www.mycandymachine.com/index?debug&machineColor=red&candies=chocolate&candies=toffee
 // 
-// var addressBar = new AddressBar(location.search);
-// 
-// var doDebugOrNot = addressBar.hasValueOrNot("debug", true, false);
-// var allowUndefined = false;
-// machineColor = addressBar.getValue(
-//     "machineColor", 
-//     "white", 
-//     allowUndefined
-// );
-// candies = addressBar.getValues(
-//     "candies", 
-//     ["default1","default2"], 
-//     allowUndefined
-// );
+// <script src="addressBar.js" type="text/javascript"></script>
+// <script type="text/javascript">
+//     var addressBar = new AddressBar(location.search);
+//     
+//     var doDebugOrNot = addressBar.hasValueOrNot("debug", "hello!", false);
+//     // returns: "hello!"
+//     
+//     var allowUndefined = false;
+//     machineColor = addressBar.getValue(
+//         "machineColor", 
+//         "white", 
+//         allowUndefined
+//     );
+//     // returns: "red"
+//     
+//     candies = addressBar.getValues(
+//         "candies", 
+//         ["default1","default2"], 
+//         allowUndefined
+//     );
+//     // returns: ["chocolate","toffee"]
+// </script>
 
 
 
@@ -35,6 +60,7 @@
 var AddressBar = (function() {
 
 	function AddressBar(getStirngs) {
+		// main logic: breaking GET params into js object
 		this.params = parseURLParam(getStirngs);
 	};
 	var p = AddressBar.prototype;
@@ -88,26 +114,26 @@ var AddressBar = (function() {
 	/**
 	 * turns get-part of the URL (eg: after the ? sign) into tokens of GET parameters
 	 * in the form of "key":["value","value"...]
-	 * @param  {string}               getStirngs the part after ?
-	 * @return {associative array[
-	 *         					"key":["value","value"]
-	 *         					]}    dictionary of processed GET parameters
+	 * @param  {string}               getStrings the part after ?
+	 * @return {associative_array[
+	 *             "key":["value","value"]
+	 *             ]}                 dictionary of processed GET parameters
 	 */
-	function parseURLParam(getStirngs) {
-		var qd = {}
-		var tmp;
-		getStirngs
+	function parseURLParam(getStrings) {
+		var result = {}
+		var temp; // reusing holder
+		getStrings
 			.replace("?", "")
 			.split("&")
 			.forEach(function(item) {
-				tmp = item.split("=");
-				if (tmp[0] in qd) {
-					qd[tmp[0]].push(decodeURIComponent(tmp[1]));
+				temp = item.split("=");
+				if (temp[0] in result) {
+					result[temp[0]].push(decodeURIComponent(temp[1]));
 				} else {
-					qd[tmp[0]] = [decodeURIComponent(tmp[1]), ];
+					result[temp[0]] = [decodeURIComponent(temp[1]), ];
 				}
 			});
-		return qd;
+		return result;
 	}
 
 })();

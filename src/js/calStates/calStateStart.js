@@ -19,7 +19,9 @@ var CalStateStart = (function() {
 		this.parent.state = "calStateFirstNumber";
 	};
 	p.onPressOp = function(op){
-		return;
+		this.parent.addDigit(0);
+		this.parent.sign = op;
+		this.parent.state = "calStateSign";
 
 	};
 	p.onPressAC = function(){

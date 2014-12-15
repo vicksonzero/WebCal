@@ -4,8 +4,8 @@
 
 // pretending CommonJS
 // var config 				= require("config");
-// var calculationModelLocal= require("calculationModelLocal");
-// var calculationModelAjax	= require("calculationModelAjax");
+// var calculationDelegateLocal= require("calculationDelegateLocal");
+// var calculationDelegateAjax	= require("calculationDelegateAjax");
 // var calStateStart		= require("calStateStart");
 // var calStateFirstNumber 	= require("calStateFirstNumber");
 // var calStateSign 		= require("calStateSign");
@@ -41,7 +41,7 @@ var Calculator = (function() {
 		this.modelUpdatedSignal = new signals.Signal();
 		this.errorMsg = "";
 		this.nextState = "";
-		this.model = config.model=="local"?calculationModelLocal:calculationModelAjax;
+		this.model = config.model=="local"?calculationDelegateLocal:calculationDelegateAjax;
 	}
 
 	var p = Calculator.prototype;

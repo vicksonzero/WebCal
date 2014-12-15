@@ -520,18 +520,10 @@
 	"buffers":
 	[
 		{
-			"file": "README.md",
+			"file": "server_src/index2.php",
 			"settings":
 			{
-				"buffer_size": 910,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/js/config.js",
-			"settings":
-			{
-				"buffer_size": 1410,
+				"buffer_size": 1245,
 				"line_ending": "Windows"
 			}
 		}
@@ -539,9 +531,17 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 265.0,
 		"selected_items":
 		[
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"c#",
+				"Set Syntax: C#"
+			],
 			[
 				"js",
 				"Set Syntax: JavaScript"
@@ -552,10 +552,6 @@
 			],
 			[
 				"ind",
-				"Indentation: Reindent Lines"
-			],
-			[
-				"inde",
 				"Indentation: Reindent Lines"
 			],
 			[
@@ -711,7 +707,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 512.0
+		"width": 400.0
 	},
 	"console":
 	{
@@ -728,28 +724,30 @@
 	},
 	"file_history":
 	[
-		"/M/_season02/WebCal/src/js/calStates/calStateSecondNumber.js",
-		"/M/_season02/WebCal/src/js/config.js",
-		"/M/_season02/WebCal/src/css/style.css",
-		"/M/_season02/WebCal/src/index.html",
 		"/M/_season02/WebCal/src/js/calculator.js",
-		"/M/_season02/WebCal/index.html",
+		"/M/_season02/WebCal/src/js/calculationDelegateAjax.js",
+		"/M/_season02/WebCal/src/js/calStates/calStateStart.js",
+		"/M/_season02/WebCal/src/js/calculationDelegateLocal.js",
+		"/M/_season02/WebCal/src/index.html",
 		"/M/_season02/WebCal/addressBar.js",
-		"/M/_season02/WebCal/src/js/addressBar.js",
-		"/M/_season02/WebCal/README.md",
 		"/M/_season02/WebCal/src/js/calculationModelAjax.js",
+		"/M/_season02/WebCal/src/js/calculationModelLocal.js",
+		"/M/_season02/WebCal/src/js/signals.js",
+		"/M/_season02/WebCal/server_src/index.php",
+		"/M/_season02/WebCal/src/js/config.js",
+		"/M/_season02/WebCal/README.md",
+		"/M/_season02/WebCal/src/js/calStates/calStateSecondNumber.js",
+		"/M/_season02/WebCal/src/css/style.css",
+		"/M/_season02/WebCal/index.html",
+		"/M/_season02/WebCal/src/js/addressBar.js",
 		"/M/_season02/WebCal/src/README.md",
 		"/M/_season02/WebCal/src/js/main.js",
 		"/M/_season02/WebCal/src/js/calStates/calStateSign.js",
 		"/M/_season02/WebCal/src/js/calStates/calStateError.js",
 		"/M/_season02/WebCal/src/js/calStates/calStateFirstNumber.js",
-		"/M/_season02/WebCal/src/js/calculationModelLocal.js",
 		"/M/_season02/WebCal/src/js/calStates/calStateAnswer.js",
 		"/M/_season02/WebCal/src/js/calStates/calStateAnswerSign.js",
 		"/M/_season02/WebCal/build/js/config.js",
-		"/M/_season02/WebCal/src/js/signals.js",
-		"/M/_season02/WebCal/server_src/index.php",
-		"/M/_season02/WebCal/src/js/calStates/calStateStart.js",
 		"/M/_season02/WebCal/src/js/calStates/calStateWaiting.js",
 		"/M/_season02/WebCal/build/index.html",
 		"/M/_season02/WebCal/src/css/reset.css",
@@ -853,9 +851,7 @@
 		"/M/_season02/labCoat/js/main.js",
 		"/M/_season02/labCoat/js/bundle.js",
 		"/M/_season02/labCoat/css/layout.css",
-		"/M/_season02/labCoat/css/home.css",
-		"/M/_season02/labCoat/css/nav.css",
-		"/M/_season02/labCoat/css/news.css"
+		"/M/_season02/labCoat/css/home.css"
 	],
 	"find":
 	{
@@ -866,6 +862,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			"M:\\_season02\\WebCal",
 			"C:\\Users\\Lenovo\\Documents\\2013-14 CityU\\OCIO\\panotour\\ToDicksonTest\\toDicksondata",
 			"C:\\Users\\Lenovo\\.nodejs\\ludo",
 			"C:\\Users\\Lenovo\\.nodejs\\myapp",
@@ -883,6 +880,15 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"this",
+			"lState",
+			"jsonData",
+			"TODO",
+			"tmp",
+			"qd",
+			"ulationModel",
+			"ationModel",
+			"calculationModel",
 			"famil",
 			"`(.*?)`",
 			"`.*?`",
@@ -1001,16 +1007,7 @@
 			"nextMove",
 			"game",
 			"ss",
-			"game",
-			"call",
-			"callback",
-			"actors",
-			"controller",
-			"data",
-			"target",
-			"default_obj",
-			"for",
-			"set"
+			"game"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1148,60 +1145,33 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "README.md",
+					"file": "server_src/index2.php",
 					"settings":
 					{
-						"buffer_size": 910,
+						"buffer_size": 1245,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								331,
-								331
+								506,
+								506
 							]
 						],
 						"settings":
 						{
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright - ver Dickson.tmTheme",
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 200.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/js/config.js",
-					"settings":
-					{
-						"buffer_size": 1410,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								484,
-								484
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright - ver Dickson.tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 111.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
