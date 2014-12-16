@@ -587,7 +587,7 @@
 			"file": "src_float/js/calculator.js",
 			"settings":
 			{
-				"buffer_size": 4309,
+				"buffer_size": 4278,
 				"line_ending": "Windows"
 			}
 		},
@@ -603,9 +603,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 196.0,
+		"height": 58.0,
 		"selected_items":
 		[
+			[
+				"c#",
+				"Set Syntax: C#"
+			],
 			[
 				"js",
 				"Set Syntax: JavaScript"
@@ -613,10 +617,6 @@
 			[
 				"inde",
 				"Indentation: Reindent Lines"
-			],
-			[
-				"c#",
-				"Set Syntax: C#"
 			],
 			[
 				"refresh",
@@ -952,6 +952,15 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"\\{.*?\\}",
+			"oSkill",
+			"behaviour",
+			"(.+)",
+			"(.+)\\W.*?;",
+			"(.*)",
+			" ",
+			";",
+			"=.*",
 			"CutDecimal",
 			"_POST",
 			"intval",
@@ -1070,16 +1079,7 @@
 			"con",
 			"length (\\d+)\\stakes\\sprogram .\\s(\\d+),\\s+.............",
 			"length (\\d+)\\stakes\\sprogram .\\s(\\d+),\\s+............",
-			"length (\\d+)\\stakes\\sprogram .\\s(\\d+),\\s+milliseconds.",
-			",",
-			"length",
-			"img",
-			"collapse",
-			"setStyles",
-			"debug_cycle",
-			"add",
-			";",
-			"nextMove"
+			"length (\\d+)\\stakes\\sprogram .\\s(\\d+),\\s+milliseconds."
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1087,6 +1087,8 @@
 		"regex": true,
 		"replace_history":
 		[
+			"behaviour.$1 = oSkill.$1;",
+			"",
 			"\\n- $1",
 			"this.parent.commit(this.parent.sign)",
 			"$config[\"$1\"]$2",
@@ -1455,15 +1457,15 @@
 					"file": "src_float/js/calculator.js",
 					"settings":
 					{
-						"buffer_size": 4309,
+						"buffer_size": 4278,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3362,
-								3362
+								1317,
+								1317
 							]
 						],
 						"settings":
@@ -1473,7 +1475,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2173.0,
+						"translation.y": 380.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1537,7 +1539,7 @@
 		"cols":
 		[
 			0.0,
-			0.397368421053,
+			0.171929824562,
 			1.0
 		],
 		"rows":
