@@ -39,4 +39,4 @@ see [source][1]
 
 [1]:https://github.com/vicksonzero/WebCal/tree/master/src
 [2]:https://github.com/vicksonzero/WebCal/tree/master/server_src/index.php
-[3]:https://github.com/vicksonzero/WebCal/tree/master/src/js/calculationModelAjax.js
+[3]:https://github.com/vicksonzero/WebCal/blob/master/src/js/calculationDelegateAjax.js
